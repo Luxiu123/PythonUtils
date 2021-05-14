@@ -1,0 +1,35 @@
+# -*- coding: UTF-8 -*-
+
+# mooc习题文本格式处理
+# 需要将文本复制下来
+import re
+
+
+def strip(string: str) -> str:
+    return '\n'.join([
+        line.strip() for line in string.split('\n') if line.strip() != ''
+    ])  # 去掉空行
+
+
+def main(filepath: str) -> str:
+    text = ''
+    with open(filepath, encoding='utf-8') as f:
+        text = f.read()
+    comp1 = re.compile(r'\(\d+分\)\n', re.M)  # 单选(1分)
+    comp2 = re.compile(r'(\d+\.\d+|该题无法得分)/\d+\.\d+')  # 1.00/1.00
+    comp3 = re.compile('得分/总分')  # 得分/总分
+    comp4 = re.compile(r'(?P<p>[A-Za-z]\.\n)', re.M)  # A.\n
+    comp5 = re.compile(r'(?P<p>\d+)')  # 在每题前换行
+    comp6 = re.compile(r'(?P<p>[单多]选)')  # 多选
+    text = re.sub(comp1, '', text)
+    text = re.sub(comp2, '', text)
+    text = re.sub(comp3, '', text)
+    text = re.sub(comp4, lambda s: s.group(1)[:-1], text)
+    text = strip(text)
+    text = re.sub(comp5, lambda s: '\n' + s.group(1), text)
+    text = re.sub(comp6, lambda s: '.[' + s.group(1) + ']', text)
+    print(text)
+
+
+if __name__ == "__main__":
+    main('./../../src/mooc/MoocQuestions.txt')
