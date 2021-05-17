@@ -21,9 +21,11 @@ def main(filepath: str) -> str:
     comp4 = re.compile(r'(?P<p>[A-Za-z]\.\n)', re.M)  # A.\n
     comp5 = re.compile(r'(?P<p>\d+)')  # 在每题前换行
     comp6 = re.compile(r'(?P<p>[单多]选)')  # 多选
+    comp7 = re.compile(r'正确答案：.+(你选对了|你错选为.+)\n?') # 正确答案
     text = re.sub(comp1, '', text)
     text = re.sub(comp2, '', text)
     text = re.sub(comp3, '', text)
+    text = re.sub(comp7, '', text)
     text = re.sub(comp4, lambda s: s.group(1)[:-1], text)
     text = strip(text)
     text = re.sub(comp5, lambda s: '\n' + s.group(1), text)
