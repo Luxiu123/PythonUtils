@@ -12,14 +12,19 @@ def load_text():
     加载文本
     """
     for file in file_list:
-        # 过滤 1M 以上文件
-        if os.path.getsize(file["path"]) > 1048576:
-            continue
+        # # 过滤 1M 以上文件
+        # if os.path.getsize(file["path"]) > 1048576:
+        # continue
         try:
             with open(file["path"], mode="rt", encoding="utf-8") as f:
                 file["data"] = f.readlines()
         except Exception as e:
             continue
+            # try:
+            # with open(file["path"], mode="rt", encoding="ansi") as f:
+            # file["data"] = f.readlines()
+            # except Exception as e:
+            # continue
 
 
 def load_file():
@@ -40,7 +45,7 @@ def reload_filelist():
     """
     重新加载文件
     """
-    print('reloading files...')
+    print("reloading files...")
     load_file()
     load_text()
     print("reload success")
@@ -52,6 +57,7 @@ def find_keyword(pattern: str):
     except Exception as e:
         Utils.print_error(e)
         return
+    count = 0
     for file in file_list:
         if file["data"] == []:
             continue
@@ -63,7 +69,9 @@ def find_keyword(pattern: str):
                 if not matched:
                     matched = True
                     print(file["rel"])
+                count += len(matches)
                 Utils.print_sky_blue(f"\tline: {index+1}, {matches}")
+    Utils.print_sky_blue(f"{count} matched")
 
 
 directory = ""
@@ -81,4 +89,5 @@ while True:
     if pattern.strip() == "r":
         reload_filelist()
         continue
-    find_keyword(pattern)
+    if pattern.strip() != "":
+        find_keyword(pattern)

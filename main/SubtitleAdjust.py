@@ -3,6 +3,7 @@
 # 字幕时间对齐
 import re
 import time
+import os
 
 comp = re.compile(r"(?P<t>\d{1,2}:\d{2}:\d{2})")
 
@@ -36,14 +37,18 @@ class SubtitleAdjust:
     def __write(self, string):
         with open(self.dist, mode="wt", encoding="utf-8") as f:
             f.write(string)
+        print("success")
 
 
 if __name__ == "__main__":
     while True:
+        src = input("请输入字幕路径(默认为'../src/SubtitleAdjust.srt'):")
+        if src.strip() == "":
+            src = "../src/SubtitleAdjust.srt"
+        dirname, filename = os.path.split(src)
+        suffix = os.path.splitext(filename)
         try:
             t = float(input("请调节时间(字幕超前, 为正):"))
-            SubtitleAdjust(
-                "./../src/SubtitleAdjust.srt", "./../src/SubtitleAdjustDist.srt", t
-            ).replace()
+            SubtitleAdjust(src, os.path.join(dirname, "dist" + suffix[1]), t).replace()
         except Exception as e:
             print(e)
