@@ -1,0 +1,838 @@
+[Script Info]
+ScriptType: v4.00+
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,微软雅黑,22,&Hffffff,&Hffffff,&H0,&H0,0,0,0,0,100,100,0,0,1,0.5,0,2,10,10,10,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, TextDialogue: 0,0:00:32.54,0:00:34.75,Default,,0,0,0,,希腊，1965年\NGreece, 1965
+Dialogue: 0,0:04:09.25,0:04:10.79,Default,,0,0,0,,雅克，快来！\NJacques, come quick!
+Dialogue: 0,0:04:10.92,0:04:14.67,Default,,0,0,0,,-它闪闪发光\N快点，雅克！在港湾里闪闪发光！\N- lt's shining!\N- Quick, Jacques! lt's shining in the harbour!
+Dialogue: 0,0:04:14.79,0:04:16.87,Default,,0,0,0,,快点！\NQuick!
+Dialogue: 0,0:05:21.00,0:05:23.00,Default,,0,0,0,,那里你看到了吗，雅克？\NThere! You see it, Jacques?
+Dialogue: 0,0:05:23.13,0:05:24.96,Default,,0,0,0,,这是一枚硬币。\Nlt's a coin.
+Dialogue: 0,0:05:25.08,0:05:28.12,Default,,0,0,0,,-是我的！我先看到的\N不，你这个骗子！\N- lt's mine! l saw it first!\N- No, you liar!
+Dialogue: 0,0:05:28.25,0:05:31.04,Default,,0,0,0,,-骗子！骗子\N我们看看谁在撒谎！\N- Liar! Liar!\N- We'll see who's lying!
+Dialogue: 0,0:05:32.67,0:05:35.25,Default,,0,0,0,,好吧，我去拿，但不要打架。好吧\NOK, l'll get it, but no fighting. All right?
+Dialogue: 0,0:05:35.38,0:05:38.50,Default,,0,0,0,,-我们要分开它。\N-你不能分开一枚硬币。太蠢了。\N- We'll split it.\N- You can't split a coin. lt's stupid.
+Dialogue: 0,0:05:38.63,0:05:41.84,Default,,0,0,0,,-是我的！我看到了\N他说得对！你真蠢！\N- lt's mine! l saw it!\N- He's right! You're stupid!
+Dialogue: 0,0:05:42.88,0:05:45.50,Default,,0,0,0,,那我们就买点东西分了。\NThen we'll buy something and split that.
+Dialogue: 0,0:05:58.17,0:06:01.84,Default,,0,0,0,,-你能不能别再指着我了？我见过。\N-我也见过。\N- Can you stop pointing? l've seen it.\N- l've seen it, too.
+Dialogue: 0,0:06:10.92,0:06:15.46,Default,,0,0,0,,好吧，如果不是那个小法国人\N小法国人怎么样了？\NWell, if it isn't the little Frenchman!\NHow is the little Frenchman?
+Dialogue: 0,0:06:17.00,0:06:18.50,Default,,0,0,0,,好的\NFine.
+Dialogue: 0,0:06:24.58,0:06:27.08,Default,,0,0,0,,你不介意我去吧？\NYou don't mind if l go instead, do you?
+Dialogue: 0,0:06:29.46,0:06:31.58,Default,,0,0,0,,如果你介意，你会告诉我，不是吗？\Nlf you did mind, you'd tell me, no?
+Dialogue: 0,0:06:31.71,0:06:33.25,Default,,0,0,0,,对\NYes.
+Dialogue: 0,0:06:37.58,0:06:39.29,Default,,0,0,0,,很好。\NGood.
+Dialogue: 0,0:06:56.54,0:06:58.16,Default,,0,0,0,,计数\NCount!
+Dialogue: 0,0:07:27.83,0:07:29.95,Default,,0,0,0,,现在是谁的？\NWhose is it now?
+Dialogue: 0,0:07:30.08,0:07:32.66,Default,,0,0,0,,你看到了，但我很乐意。\NYou saw it, but l dove for it.
+Dialogue: 0,0:07:38.46,0:07:41.38,Default,,0,0,0,,-罗伯托，还要多久？\N-六！\N- Roberto, how long?\N- Six!
+Dialogue: 0,0:07:41.50,0:07:43.54,Default,,0,0,0,,我把它扔回水里。\Nl throw it back into the water.
+Dialogue: 0,0:07:43.67,0:07:47.17,Default,,0,0,0,,你下潜，如果你下潜不到六次，\NYou dive, and if you do less than six,
+Dialogue: 0,0:07:47.29,0:07:49.41,Default,,0,0,0,,这是你的。\Nit's yours.
+Dialogue: 0,0:07:59.71,0:08:02.38,Default,,0,0,0,,恩佐，我先看到了硬币。\N我们要把它分开吗？\NEnzo, l saw the coin first.\NWe'll split it?
+Dialogue: 0,0:08:02.50,0:08:05.04,Default,,0,0,0,,我们不能分硬币，笨蛋！\NWe can't split a coin, stupid!
+Dialogue: 0,0:08:18.25,0:08:21.17,Default,,0,0,0,,是不是。。。一枚硬币在那儿闪闪发光？\Nls it... a coin shining there?
+Dialogue: 0,0:08:22.08,0:08:24.00,Default,,0,0,0,,是的。这是一枚硬币。\Nlt is. lt's a coin.
+Dialogue: 0,0:08:24.79,0:08:26.87,Default,,0,0,0,,我去给你拿，神父。\Nl'll get it for you, Father.
+Dialogue: 0,0:08:28.04,0:08:30.50,Default,,0,0,0,,这是给穷人的。\Nlt will be for the poor.
+Dialogue: 0,0:08:41.50,0:08:43.58,Default,,0,0,0,,神父！\NFather!
+Dialogue: 0,0:09:44.46,0:09:46.50,Default,,0,0,0,,该起床了，雅克。\NTime to get up, Jacques.
+Dialogue: 0,0:10:51.83,0:10:54.00,Default,,0,0,0,,倒霉。\NShit.
+Dialogue: 0,0:11:19.46,0:11:21.63,Default,,0,0,0,,你不应该每天潜水，爸爸。\NYou shouldn't dive every day, Papa.
+Dialogue: 0,0:11:21.75,0:11:24.67,Default,,0,0,0,,那你不应该每天都吃东西，雅克。\NThen you shouldn't eat every day, Jacques.
+Dialogue: 0,0:11:31.25,0:11:33.71,Default,,0,0,0,,别担心。当我累的时候，\NDon't worry. When l am tired,
+Dialogue: 0,0:11:33.83,0:11:35.91,Default,,0,0,0,,美人鱼帮了我。\Nthe mermaids help me out.
+Dialogue: 0,0:12:29.79,0:12:32.91,Default,,0,0,0,,嘿，你见过美人鱼吗？\NHey, have you ever seen a mermaid?
+Dialogue: 0,0:12:35.42,0:12:37.50,Default,,0,0,0,,我见过他们。\Nl've seen them.
+Dialogue: 0,0:12:38.42,0:12:40.50,Default,,0,0,0,,你不想知道在哪里吗？\NDon't you want to know where?
+Dialogue: 0,0:12:50.50,0:12:52.50,Default,,0,0,0,,你为什么不问问我？\NWhy don't you ask me?
+Dialogue: 0,0:12:52.63,0:12:54.71,Default,,0,0,0,,-什么？\N-我在哪里看到美人鱼。\N- What?\N- Where l saw mermaids.
+Dialogue: 0,0:12:54.83,0:12:58.79,Default,,0,0,0,,你为什么不提任何问题？\N总是提问题。\NWhy don't you ever ask any questions?\Nl always ask the questions.
+Dialogue: 0,0:12:58.92,0:13:02.46,Default,,0,0,0,,我们到了，就像两块石头，现在我在自言自语。\NHere we are, like two stones,\Nand now l'm talking to myself.
+Dialogue: 0,0:13:02.58,0:13:05.20,Default,,0,0,0,,问我个问题，该死的！\NAsk me something, goddamn it!
+Dialogue: 0,0:13:06.46,0:13:08.50,Default,,0,0,0,,我妈妈为什么离开？\NWhy did my mother leave?
+Dialogue: 0,0:13:09.17,0:13:10.63,Default,,0,0,0,,泵。\NPump.
+Dialogue: 0,0:13:18.08,0:13:22.87,Default,,0,0,0,,你妈妈没有离开。\N她回到了美国，仅此而已。\NYour mother didn't leave.\NShe went back to America, that's all.
+Dialogue: 0,0:13:23.00,0:13:25.04,Default,,0,0,0,,这是她的家。\Nlt's her home.
+Dialogue: 0,0:13:25.17,0:13:27.59,Default,,0,0,0,,女人就是这样。\NWomen are like that.
+Dialogue: 0,0:13:27.71,0:13:29.79,Default,,0,0,0,,不可预知的\NUnpredictable.
+Dialogue: 0,0:13:29.92,0:13:32.13,Default,,0,0,0,,就像大海。\NLike the sea.
+Dialogue: 0,0:13:38.33,0:13:41.33,Default,,0,0,0,,雅克！水！水！\NJacques! The water! Water!
+Dialogue: 0,0:13:42.00,0:13:43.96,Default,,0,0,0,,救命啊！我不能呼吸了！\NHelp! l can't breathe!
+Dialogue: 0,0:13:44.08,0:13:46.16,Default,,0,0,0,,号码\NNo!
+Dialogue: 0,0:13:53.42,0:13:55.71,Default,,0,0,0,,爸爸？爸爸！\NDaddy? Daddy!
+Dialogue: 0,0:14:11.67,0:14:14.71,Default,,0,0,0,,等待呆在这儿，雅克！\NWait! Stay here, Jacques!
+Dialogue: 0,0:16:22.50,0:16:25.21,Default,,0,0,0,,对这是怎么发生的？\NYes! How did it happen?
+Dialogue: 0,0:16:25.33,0:16:30.00,Default,,0,0,0,,嗯，呃。。。公司要我从失事的船上搜出所有能找到的东西。\NWell, uh... the company asked me to\Nextract everything l could from the wreck.
+Dialogue: 0,0:16:30.13,0:16:34.05,Default,,0,0,0,,所以。。。潜水员们\N正在试图接近引擎。。。\NAnd so the... the divers\Nwere trying to get at the engine...
+Dialogue: 0,0:16:34.17,0:16:37.67,Default,,0,0,0,,船在水流中翻了过来！\Nand the boat just turned over\Nin the current!
+Dialogue: 0,0:16:39.29,0:16:41.75,Default,,0,0,0,,听着，我。。。我搞砸了！\NLook, l... l fucked up!
+Dialogue: 0,0:16:41.88,0:16:43.59,Default,,0,0,0,,你看！\NLook!
+Dialogue: 0,0:16:44.38,0:16:46.21,Default,,0,0,0,,你能帮忙吗？\NCan you help?
+Dialogue: 0,0:16:46.33,0:16:48.37,Default,,0,0,0,,下面有多少人？\NHow many are down there?
+Dialogue: 0,0:16:48.50,0:16:53.92,Default,,0,0,0,,只有一个。我们给他喂了很多空气\N但是。。。他呼吸不正常。\NThere's just one. We're feeding him lots of air\Nbut... he's not breathing properly.
+Dialogue: 0,0:16:54.04,0:16:56.75,Default,,0,0,0,,你得把他弄出去，快点！\NYou've gotta get him outta there, fast!
+Dialogue: 0,0:17:00.50,0:17:02.17,Default,,0,0,0,,一万块。\NTen thousand.
+Dialogue: 0,0:17:05.13,0:17:06.71,Default,,0,0,0,,里尔？\NLire?
+Dialogue: 0,0:17:06.83,0:17:08.75,Default,,0,0,0,,美元。\NDollars.
+Dialogue: 0,0:17:11.79,0:17:13.87,Default,,0,0,0,,嘿，等等！\NHey, wait a minute!
+Dialogue: 0,0:17:14.00,0:17:17.71,Default,,0,0,0,,你们不会在这样的时候把我抱起来吧？！\NYou guys aren't gonna try to\Nhold me up at a time like this?!
+Dialogue: 0,0:17:22.54,0:17:24.46,Default,,0,0,0,,好吧，你告诉我。\NOK, you tell me.
+Dialogue: 0,0:17:24.58,0:17:27.37,Default,,0,0,0,,你认为一个人的生命值多少钱？\NHow much would you say\Na man's life is worth?
+Dialogue: 0,0:17:29.38,0:17:31.34,Default,,0,0,0,,在我的村子里我们有句俗语。\Nln my village we have a saying.
+Dialogue: 0,0:17:33.29,0:17:35.37,Default,,0,0,0,,又怎么样了？\NHow does it go again?
+Dialogue: 0,0:17:37.46,0:17:39.46,Default,,0,0,0,,我不记得了。\Nl don't remember.
+Dialogue: 0,0:17:39.58,0:17:42.66,Default,,0,0,0,,-这是什么意思？\N-算了。\N- What's that supposed to mean?\N- Forget it.
+Dialogue: 0,0:18:05.67,0:18:07.29,Default,,0,0,0,,恩佐！\NEnzo!
+Dialogue: 0,0:18:07.42,0:18:10.17,Default,,0,0,0,,福尔扎！\NForza!
+Dialogue: 0,0:18:37.38,0:18:40.59,Default,,0,0,0,,既然我们时间不多，你就开那张支票？\NSince we have a little time,\Nyou write that cheque?
+Dialogue: 0,0:19:29.92,0:19:31.96,Default,,0,0,0,,他还能干多久？\NHow much longer can he do that?
+Dialogue: 0,0:19:32.08,0:19:34.20,Default,,0,0,0,,我哥哥。。。\NMy brother...
+Dialogue: 0,0:19:34.33,0:19:36.66,Default,,0,0,0,,他是世界冠军。\Nis a world champion.
+Dialogue: 0,0:19:36.79,0:19:38.29,Default,,0,0,0,,签名\NSign.
+Dialogue: 0,0:20:52.67,0:21:04.67,Default,,0,0,0,,好极了！\NBravo!
+Dialogue: 0,0:21:04.79,0:21:07.00,Default,,0,0,0,,好极了！好极了！\NBravo! Bravo!
+Dialogue: 0,0:21:11.83,0:21:14.41,Default,,0,0,0,,谢谢好极了！\NThanks! Bravo!
+Dialogue: 0,0:21:26.58,0:21:28.37,Default,,0,0,0,,嘿\NHey!
+Dialogue: 0,0:21:28.50,0:21:30.50,Default,,0,0,0,,等待等一下！\NWait! Wait a minute!
+Dialogue: 0,0:21:30.63,0:21:34.13,Default,,0,0,0,,等一下！等待嘿\NWait a minute! Wait! Hey!
+Dialogue: 0,0:21:35.08,0:21:37.41,Default,,0,0,0,,嘿，谢谢你们。\NHey, thanks, you guys.
+Dialogue: 0,0:21:37.54,0:21:39.58,Default,,0,0,0,,真正地我是认真的。\NReally. l mean it.
+Dialogue: 0,0:21:39.71,0:21:41.46,Default,,0,0,0,,不客气。\NYou're welcome.
+Dialogue: 0,0:22:01.17,0:22:04.21,Default,,0,0,0,,一万美元，罗伯托！\NTen thousand dollars, Roberto!
+Dialogue: 0,0:22:27.33,0:22:30.20,Default,,0,0,0,,你打算怎么处理这些钱？\NWhat are you gonna do with the money?
+Dialogue: 0,0:22:30.33,0:22:32.37,Default,,0,0,0,,把车漆一下。\NHave the car painted.
+Dialogue: 0,0:22:32.50,0:22:35.12,Default,,0,0,0,,但是朱塞佩要花25美元。\NBut Giuseppe will do that for 25 dollars.
+Dialogue: 0,0:22:38.29,0:22:40.62,Default,,0,0,0,,那叫他也给它上蜡。\NThen tell him to wax it, too.
+Dialogue: 0,0:23:02.13,0:23:06.25,Default,,0,0,0,,-你到底想得到什么？\N-给妈妈的念珠。。。\N- What are you really gonna get?\N- A rosary for Mamma...
+Dialogue: 0,0:23:06.38,0:23:08.46,Default,,0,0,0,,…给安吉丽卡的裙子。。。\N...a dress for Angelica...
+Dialogue: 0,0:23:10.13,0:23:12.96,Default,,0,0,0,,…还有一套适合你的西装。\N...and a suit that fits you.
+Dialogue: 0,0:23:18.00,0:23:19.67,Default,,0,0,0,,但最重要的是。。。\NBut most important...
+Dialogue: 0,0:23:22.21,0:23:23.25,Default,,0,0,0,,对\NYes?
+Dialogue: 0,0:23:25.96,0:23:28.08,Default,,0,0,0,,给我找法国人。\NFind me the Frenchman.
+Dialogue: 0,0:23:31.33,0:23:33.41,Default,,0,0,0,,给我找雅克·马约尔。\NFind me Jacques Mayol.
+Dialogue: 0,0:25:30.29,0:25:32.29,Default,,0,0,0,,你是劳伦斯医生吗？\NAre you Dr Laurence?
+Dialogue: 0,0:25:32.42,0:25:35.29,Default,,0,0,0,,不，我是助理。\NNo. l'm the assistant.
+Dialogue: 0,0:25:35.42,0:25:37.50,Default,,0,0,0,,欢迎来到秘鲁。\NWelcome to Peru.
+Dialogue: 0,0:26:32.88,0:26:34.92,Default,,0,0,0,,一杯热身的饮料？\NA drink to warm up?
+Dialogue: 0,0:26:35.04,0:26:37.12,Default,,0,0,0,,好的，谢谢。\NYes, please.
+Dialogue: 0,0:26:37.25,0:26:39.29,Default,,0,0,0,,-茶还是威士忌？\N-都是。\N- Tea or whiskey?\N- Both.
+Dialogue: 0,0:26:39.42,0:26:43.63,Default,,0,0,0,,做我刚才看到一个穿着红色西装戴着护目镜的男人了吗？\NDid... Did l just see a man\Nin a red suit and goggles?
+Dialogue: 0,0:26:43.75,0:26:45.83,Default,,0,0,0,,正确的。\NRight.
+Dialogue: 0,0:26:48.29,0:26:50.66,Default,,0,0,0,,保险人来了。\NThe insurance person is here.
+Dialogue: 0,0:26:50.79,0:26:53.21,Default,,0,0,0,,是时候了。\Nlt's about time.
+Dialogue: 0,0:26:54.83,0:26:56.95,Default,,0,0,0,,乔安娜·贝克。\NJohana Baker.
+Dialogue: 0,0:26:57.08,0:26:59.50,Default,,0,0,0,,旅途愉快，嗯？\NNice trip, eh?
+Dialogue: 0,0:27:02.96,0:27:06.92,Default,,0,0,0,,事故已经过去三个星期了。我们有点焦虑。\Nlt's three weeks since the accident.\NWe're getting a little anxious.
+Dialogue: 0,0:27:07.04,0:27:09.54,Default,,0,0,0,,弗兰克，出去。他准备进去了。\NFranck, get out there. He's ready to go in.
+Dialogue: 0,0:27:09.67,0:27:11.71,Default,,0,0,0,,正确的。\NRight.
+Dialogue: 0,0:27:14.96,0:27:17.83,Default,,0,0,0,,第一次下潜，两分钟。\NFirst dive, two minutes.
+Dialogue: 0,0:27:37.13,0:27:38.88,Default,,0,0,0,,谁\NWho...
+Dialogue: 0,0:27:39.00,0:27:41.08,Default,,0,0,0,,那是谁？\NWho is that?
+Dialogue: 0,0:27:41.21,0:27:43.83,Default,,0,0,0,,马约尔。雅克·马约尔。\NMayol. Jacques Mayol.
+Dialogue: 0,0:27:44.96,0:27:47.00,Default,,0,0,0,,那这些就是你的实验？\NSo those are your experiments?
+Dialogue: 0,0:27:47.13,0:27:49.17,Default,,0,0,0,,把一个人扔到结冰的湖里？\NDumping a guy in a frozen lake?
+Dialogue: 0,0:27:49.29,0:27:51.87,Default,,0,0,0,,卡车掉进一个很深的裂缝里。\NThe truck fell into a very deep crevasse.
+Dialogue: 0,0:27:52.00,0:27:54.67,Default,,0,0,0,,我们没能救出设备。\NWe weren't able to rescue the equipment.
+Dialogue: 0,0:27:56.08,0:27:58.20,Default,,0,0,0,,我得和司机谈谈。\Nl'll have to talk to the driver.
+Dialogue: 0,0:27:59.13,0:28:01.63,Default,,0,0,0,,春天，当他融化的时候。\Nln the spring, when he melts.
+Dialogue: 0,0:28:06.71,0:28:08.88,Default,,0,0,0,,你真的要把他埋在冰下？\NYou really send him under the ice?
+Dialogue: 0,0:28:09.00,0:28:12.00,Default,,0,0,0,,他不是奴隶或罪犯，不是吗？\NHe isn't a slave or a convict\Nor anything, is he?
+Dialogue: 0,0:28:12.13,0:28:15.75,Default,,0,0,0,,亲爱的，科学是残酷的情妇。\NMy dear, science is a cruel mistress.
+Dialogue: 0,0:28:25.21,0:28:28.04,Default,,0,0,0,,-他要怎么呼吸？\N-他没有。\N- How is he gonna breathe?\N- He isn't.
+Dialogue: 0,0:28:39.63,0:28:41.63,Default,,0,0,0,,听\NListen.
+Dialogue: 0,0:28:41.75,0:28:43.79,Default,,0,0,0,,那是他的心声。\NThat's the sound of his heart.
+Dialogue: 0,0:28:43.92,0:28:47.92,Default,,0,0,0,,你能听到它减速的速度吗？\NCan you hear the speed\Nat which it's slowing down?
+Dialogue: 0,0:28:48.04,0:28:50.71,Default,,0,0,0,,太不可思议了！\Nlt's incredible!
+Dialogue: 0,0:29:09.08,0:29:11.95,Default,,0,0,0,,他现在在荧光镜里。\NHe's in the fluoroscope now.
+Dialogue: 0,0:29:14.33,0:29:16.41,Default,,0,0,0,,听他的心跳！\NListen to his heartbeat!
+Dialogue: 0,0:29:16.54,0:29:18.58,Default,,0,0,0,,真不敢相信！\Nl can't believe that!
+Dialogue: 0,0:29:18.71,0:29:21.46,Default,,0,0,0,,所有的血液都集中在他的大脑里。\NAll the blood is concentrated in his brain.
+Dialogue: 0,0:29:21.58,0:29:24.37,Default,,0,0,0,,它甚至不再喂他的四肢了。\Nlt doesn't even feed his limbs any more.
+Dialogue: 0,0:29:24.50,0:29:28.96,Default,,0,0,0,,这是一种只在鲸鱼和海豚身上观察到的现象。\NThat's a phenomenon that's only\Nbeen observed in whales and dolphins.
+Dialogue: 0,0:29:29.08,0:29:31.20,Default,,0,0,0,,直到现在。\NUntil now.
+Dialogue: 0,0:29:50.08,0:29:52.70,Default,,0,0,0,,他为什么这么做？\NWhy is he doing this?
+Dialogue: 0,0:29:54.50,0:29:56.58,Default,,0,0,0,,我不知道。\Nl don't know.
+Dialogue: 0,0:30:57.67,0:31:01.00,Default,,0,0,0,,不应该有人给他拿毯子什么的吗？\NShouldn't someone take him\Na blanket or something?
+Dialogue: 0,0:31:31.29,0:31:35.46,Default,,0,0,0,,-我认识你。\N-我们几分钟前刚见过面。\N- l know you.\N- We just met, a few minutes ago.
+Dialogue: 0,0:31:37.58,0:31:41.66,Default,,0,0,0,,-在湖里？\N-不。。。在小屋里。\N- ln the lake?\N- No... ln the hut.
+Dialogue: 0,0:31:54.67,0:31:58.42,Default,,0,0,0,,那一定是长得很像你的人。\NThen it must have been someone\Nwho looked a lot like you.
+Dialogue: 0,0:33:10.17,0:33:12.25,Default,,0,0,0,,这是礼物。\Nlt's a present.
+Dialogue: 0,0:33:18.75,0:33:20.75,Default,,0,0,0,,你不打开吗？\NAren't you gonna open it?
+Dialogue: 0,0:33:37.50,0:33:39.58,Default,,0,0,0,,你在这里很久了吗？\NAre you here for a long time?
+Dialogue: 0,0:33:42.25,0:33:44.17,Default,,0,0,0,,你住在哪里？\NWhere do you live?
+Dialogue: 0,0:33:45.00,0:33:46.67,Default,,0,0,0,,在纽约。\Nln New York.
+Dialogue: 0,0:33:57.42,0:33:59.50,Default,,0,0,0,,很高兴见到你。\Nlt's been nice meeting you.
+Dialogue: 0,0:34:04.29,0:34:07.04,Default,,0,0,0,,美好的我也是。\NNice... meeting you, too.
+Dialogue: 0,0:34:48.88,0:34:51.00,Default,,0,0,0,,我只有五分钟。\Nl'll only be five minutes.
+Dialogue: 0,0:35:22.46,0:35:24.54,Default,,0,0,0,,小丑。\NClown.
+Dialogue: 0,0:35:26.17,0:35:29.34,Default,,0,0,0,,是只美洲驼。\Nlt's a llama.
+Dialogue: 0,0:35:40.17,0:35:43.75,Default,,0,0,0,,大吉岭。\NDarjeeling.
+Dialogue: 0,0:35:58.63,0:36:00.84,Default,,0,0,0,,我想你们这些坏蛋。\Nl missed you rascals.
+Dialogue: 0,0:37:06.75,0:37:09.00,Default,,0,0,0,,雅克，我的朋友。\NJacques, my friend.
+Dialogue: 0,0:37:10.04,0:37:12.12,Default,,0,0,0,,你好吗？\NHow are you?
+Dialogue: 0,0:37:12.71,0:37:14.54,Default,,0,0,0,,恩佐？\NEnzo?
+Dialogue: 0,0:37:14.67,0:37:18.21,Default,,0,0,0,,我让你游泳，20年后你还在水里。\Nl leave you swimming\Nand 20 years later you're still in the water.
+Dialogue: 0,0:37:18.33,0:37:20.83,Default,,0,0,0,,你到底在干什么？培训？\NWhat the hell are you doing? Training?
+Dialogue: 0,0:37:22.13,0:37:23.80,Default,,0,0,0,,是 啊\NYeah.
+Dialogue: 0,0:37:24.92,0:37:26.96,Default,,0,0,0,,很好。\NGood.
+Dialogue: 0,0:37:30.88,0:37:33.80,Default,,0,0,0,,看看这套衣服。\NCheck out the suit.
+Dialogue: 0,0:37:33.92,0:37:36.00,Default,,0,0,0,,看起来不错，不是吗？\NLooking good, no?
+Dialogue: 0,0:37:36.13,0:37:39.30,Default,,0,0,0,,-你知道我是世界冠军吗？\N-是的，我知道。\N- You know l'm the world champion?\N- Yeah, l know.
+Dialogue: 0,0:37:40.58,0:37:44.50,Default,,0,0,0,,世界锦标赛\N十天后在陶尔米纳开始。\NThe world championship\Nstarts in ten days in Taormina.
+Dialogue: 0,0:37:45.54,0:37:47.62,Default,,0,0,0,,请便。\NBe my guest.
+Dialogue: 0,0:37:48.75,0:37:50.79,Default,,0,0,0,,你的票。\NYour ticket.
+Dialogue: 0,0:37:50.92,0:37:52.54,Default,,0,0,0,,为什么？\NWhy?
+Dialogue: 0,0:37:53.96,0:37:56.50,Default,,0,0,0,,因为我肯定你很想打败我。\NBecause l'm sure you're dying to beat me.
+Dialogue: 0,0:38:00.29,0:38:02.96,Default,,0,0,0,,你是最棒的，恩佐。\NYou're the best, Enzo.
+Dialogue: 0,0:38:06.00,0:38:08.62,Default,,0,0,0,,再见。\NSee you there.
+Dialogue: 0,0:42:06.13,0:42:08.17,Default,,0,0,0,,L我听不见你说话！\Nl... l can't hear you!
+Dialogue: 0,0:42:08.29,0:42:11.66,Default,,0,0,0,,我说雪地车的文件在杂物箱里。\Nl said the snowmobile papers\Nare in the glove compartment.
+Dialogue: 0,0:42:11.79,0:42:14.29,Default,,0,0,0,,让海关给我寄一份。\NGet the customs office to send me a copy.
+Dialogue: 0,0:42:14.42,0:42:18.00,Default,,0,0,0,,在我们的文件完成之前，我们无法为您提供新设备。\NWe can't get you new equipment\Nuntil our file is complete.
+Dialogue: 0,0:42:18.13,0:42:21.09,Default,,0,0,0,,好吧到本周末您将拥有它们。\NAll right. You'll have them\Nby the end of the week.
+Dialogue: 0,0:42:21.21,0:42:25.29,Default,,0,0,0,,伟大的你让我成为一个非常快乐的保险人。非常感谢。\NGreat. You've made me a very happy\Ninsurance person. Thank you.
+Dialogue: 0,0:42:25.42,0:42:27.67,Default,,0,0,0,,-好吧。再见。\N-劳伦斯博士？\N- All right. Goodbye.\N- Dr. Laurence?
+Dialogue: 0,0:42:27.79,0:42:29.16,Default,,0,0,0,,对\NYes?
+Dialogue: 0,0:42:29.29,0:42:33.58,Default,,0,0,0,,你不知道我怎么能和你的潜水员取得联系吗？\NYou don't happen to know how l can\Nget in touch with that diver of yours?
+Dialogue: 0,0:42:33.71,0:42:35.50,Default,,0,0,0,,雅克·马约尔？\NJacques Mayol?
+Dialogue: 0,0:42:36.96,0:42:41.50,Default,,0,0,0,,我最后一次听说他是在陶尔米纳参加世界跳水锦标赛的。\NThe last l heard he was in Taormina,\Nat the World Diving Championships.
+Dialogue: 0,0:42:41.63,0:42:43.46,Default,,0,0,0,,在西西里。\Nln Sicily.
+Dialogue: 0,0:44:16.33,0:44:18.50,Default,,0,0,0,,马约尔。。。马约尔。。。没有预约。\NMayol... Mayol... No reservation.
+Dialogue: 0,0:44:24.96,0:44:27.63,Default,,0,0,0,,-你确定吗？\N-肯定，先生。\N- Are you sure?\N- Positive, sir.
+Dialogue: 0,0:44:28.88,0:44:30.96,Default,,0,0,0,,这是圣多梅尼科酒店吗？\NThis is the Hotel San-Domenico?
+Dialogue: 0,0:44:31.08,0:44:34.12,Default,,0,0,0,,是的，127年来一直如此。\NYes, it has been so for 127 years.
+Dialogue: 0,0:44:44.67,0:44:47.50,Default,,0,0,0,,小心那辆车。这是新的油漆工作。好啊\NBe careful of that car.\Nlt's a new paintjob. OK?
+Dialogue: 0,0:44:59.96,0:45:02.17,Default,,0,0,0,,所以，你最终决定加入我们。\NSo, you finally decided to join us.
+Dialogue: 0,0:45:02.29,0:45:04.50,Default,,0,0,0,,你做得对。\NYou did the right thing.
+Dialogue: 0,0:45:04.63,0:45:06.46,Default,,0,0,0,,保罗，钥匙。\NPaolo, the key.
+Dialogue: 0,0:45:06.58,0:45:09.16,Default,,0,0,0,,你还记得我弟弟罗伯托吗？\NYou remember my little brother Roberto?
+Dialogue: 0,0:45:09.29,0:45:12.41,Default,,0,0,0,,-嗨。\N-嗨，罗伯托。\N- Hi.\N- Hi, Roberto.
+Dialogue: 0,0:45:12.54,0:45:15.58,Default,,0,0,0,,-你有什么房间？\N-我没有。\N- What room have you got?\N- l haven't got one.
+Dialogue: 0,0:45:15.71,0:45:18.17,Default,,0,0,0,,你没有房间吗？保罗！\NYou don't have a room? Paolo!
+Dialogue: 0,0:45:18.29,0:45:22.50,Default,,0,0,0,,我刚才听到什么了？我打电话给你为我的朋友雅克·马约尔预订一个房间。。。\NWhat did l just hear? l call you to reserve\Na room for my friend Jacques Mayol...
+Dialogue: 0,0:45:22.63,0:45:24.71,Default,,0,0,0,,你把他当成陌生人！\Nand you treat him like a stranger!
+Dialogue: 0,0:45:24.83,0:45:29.33,Default,,0,0,0,,-没事的，恩佐。我要去别的地方。\N-他不仅是一个很特别的朋友。\N- lt's OK, Enzo. l'll go somewhere else.\N- Not only is he a very special friend.
+Dialogue: 0,0:45:29.46,0:45:33.25,Default,,0,0,0,,但他是世界上最好的潜水员之一。你把他扔出去！\NBut he is one of the best divers\Nin the world. And you sling him out!
+Dialogue: 0,0:45:33.38,0:45:35.71,Default,,0,0,0,,你疯了还是怎么了？\NAre you crazy or what?
+Dialogue: 0,0:45:37.54,0:45:40.08,Default,,0,0,0,,放下它，恩佐。我会找到东西的。\NDrop it, Enzo. l'll find something.
+Dialogue: 0,0:45:44.13,0:45:47.17,Default,,0,0,0,,拿我的。我要伯爵夫人的套房。\NTake mine. l'll take the Countess's suite.
+Dialogue: 0,0:45:47.29,0:45:50.04,Default,,0,0,0,,她告诉我她要去墓地。\NShe told me she was leaving\Nfor the cemetery.
+Dialogue: 0,0:45:50.96,0:45:53.46,Default,,0,0,0,,她在那里会更舒服！哈\NShe'll be more comfortable there! Ha!
+Dialogue: 0,0:45:58.71,0:46:00.79,Default,,0,0,0,,很高兴你来了。\Nl'm glad you're here.
+Dialogue: 0,0:46:09.50,0:46:15.25,Default,,0,0,0,,所以，这么多年了，你一定有很多问题要问我。我说得对吗？\NSo, after all these years, you must have\Nlots of questions to ask me. Am l right?
+Dialogue: 0,0:46:16.25,0:46:18.87,Default,,0,0,0,,是的，当然，有很多问题。\NYeah, sure, lots of questions.
+Dialogue: 0,0:46:23.17,0:46:25.29,Default,,0,0,0,,他们是什么？\NWell, what are they?
+Dialogue: 0,0:46:30.50,0:46:32.92,Default,,0,0,0,,我不知道怎么问这些问题。\Nl don't know how to ask the questions.
+Dialogue: 0,0:46:36.71,0:46:38.58,Default,,0,0,0,,你结婚了吗？\NAre you married?
+Dialogue: 0,0:46:44.46,0:46:46.50,Default,,0,0,0,,我也是。因为我妈妈。\NMe neither. Because of my mother.
+Dialogue: 0,0:46:46.63,0:46:48.71,Default,,0,0,0,,她是个诅咒，我妈妈。龙卷风。\NShe's a curse, my mother. Tornado.
+Dialogue: 0,0:46:48.83,0:46:51.58,Default,,0,0,0,,像骡子一样固执。\NStubborn as a mule.
+Dialogue: 0,0:46:51.71,0:46:53.67,Default,,0,0,0,,我订婚一周了。\Nl was engaged for a week.
+Dialogue: 0,0:46:53.79,0:46:57.37,Default,,0,0,0,,之后，妈妈很生气，意大利面从墙上弹了下来！\NAfter, Mamma was so mad,\Nthe pasta was bouncing off the walls!
+Dialogue: 0,0:47:00.29,0:47:02.37,Default,,0,0,0,,所以，没有结婚。\NSo, not married.
+Dialogue: 0,0:47:02.50,0:47:04.54,Default,,0,0,0,,真为你高兴。\NGood for you.
+Dialogue: 0,0:47:04.67,0:47:08.04,Default,,0,0,0,,你和我一样在球场上打球。每个港口都有一个女孩，嗯？\NYou play the field, like me.\NA girl in every port, eh?
+Dialogue: 0,0:47:08.17,0:47:10.75,Default,,0,0,0,,-毕竟，我们是男人\N他妈的对！\N- After all, we're men!\N- Damn right!
+Dialogue: 0,0:47:10.88,0:47:14.59,Default,,0,0,0,,当人们说你变成了一条鱼时，我就是这么告诉他们的。\NThat's what l tell them\Nwhen people say you've turned into a fish.
+Dialogue: 0,0:47:14.71,0:47:16.29,Default,,0,0,0,,人们这么说？\NPeople say that?
+Dialogue: 0,0:47:19.29,0:47:21.37,Default,,0,0,0,,算了吧！我在开玩笑！\NForget it! l was joking!
+Dialogue: 0,0:47:54.38,0:47:57.46,Default,,0,0,0,,我敢打赌她今晚在我床上。\Nl'll bet you my watch\Nthat she's in my bed tonight.
+Dialogue: 0,0:48:04.38,0:48:06.42,Default,,0,0,0,,-你们认识吗？\N-认识！\N- You know each other?\N- Yes!
+Dialogue: 0,0:48:06.54,0:48:11.16,Default,,0,0,0,,-恩佐·莫利纳里。非常荣幸。\N-乔安娜·贝克。很高兴认识你。\N- Enzo Molinari. This is a great pleasure.\N- Johana Baker. Nice to meet you.
+Dialogue: 0,0:48:11.29,0:48:14.21,Default,,0,0,0,,这是。。。一个巧合！难以置信！\NThis is... a coincidence! lt's unbelievable!
+Dialogue: 0,0:48:22.54,0:48:24.62,Default,,0,0,0,,你想坐下吗？\NWould you like to sit down?
+Dialogue: 0,0:48:29.71,0:48:33.42,Default,,0,0,0,,-我没有打断任何事，是吗？\N-不，一点也没有。\N- l'm not interrupting anything, am l?\N- No, not at all.
+Dialogue: 0,0:48:35.29,0:48:39.37,Default,,0,0,0,,-你住在酒店吗？\N-已经客满了。但他们推荐了一个。\N- You staying at the hotel?\N- lt's full. But they recommended a pensione.
+Dialogue: 0,0:48:39.50,0:48:43.54,Default,,0,0,0,,-陶尔米纳的人都满了。\N-这是自由跳水世界锦标赛。\N- All of Taormina is full.\N- lt's the Free Diving World Championship.
+Dialogue: 0,0:48:43.67,0:48:45.59,Default,,0,0,0,,顺便说一下，我是世界冠军。\Nl am, by the way, world champion.
+Dialogue: 0,0:48:45.71,0:48:50.38,Default,,0,0,0,,-你在西西里做什么？\N-我在巴勒莫做保险索赔。。。\N- What are you doing in Sicily?\N- l was doing an insurance claim in Palermo...
+Dialogue: 0,0:48:50.50,0:48:53.71,Default,,0,0,0,,决定休息几天，去岛上看看。\Nand decided to take a few days off,\Nsee the island.
+Dialogue: 0,0:48:53.83,0:48:57.54,Default,,0,0,0,,世界上没有比西西里岛更美的地方了。\NThere is no place in the world\Nmore beautiful than Sicily.
+Dialogue: 0,0:48:57.67,0:49:01.21,Default,,0,0,0,,意大利面德尔马\N超级专注的保险代理人。\NSpaghetti del mare\Nfor the super-dedicated insurance agent.
+Dialogue: 0,0:49:07.88,0:49:11.21,Default,,0,0,0,,就像我刚才说的，我是世界自由跳水冠军。\NAs l was saying earlier,\Nl am the world champion free diver.
+Dialogue: 0,0:49:11.33,0:49:14.54,Default,,0,0,0,,有人说这是世界上最有男子气概的运动。\NSome people say it's\Nthe most virile sport in the world.
+Dialogue: 0,0:49:14.67,0:49:17.09,Default,,0,0,0,,不得不承认看到那些人。。。\NOne has to admit that seeing those men...
+Dialogue: 0,0:49:17.21,0:49:21.96,Default,,0,0,0,,在深蓝色的海里头朝下跳水，所有的肌肉都收缩了。。。\Ndiving headfirst in that deep blue sea,\Nall muscles contracted...
+Dialogue: 0,0:49:22.08,0:49:24.04,Default,,0,0,0,,-恩佐…\N-什么？！\N- Enzo...\N- What?!
+Dialogue: 0,0:49:24.17,0:49:26.42,Default,,0,0,0,,-妈妈？\N-哪里？\N- Mamma?\N- Where?
+Dialogue: 0,0:49:26.54,0:49:28.62,Default,,0,0,0,,等待\NWait.
+Dialogue: 0,0:49:30.88,0:49:34.80,Default,,0,0,0,,如果她发现我在餐馆吃意大利面，她会杀了我的。\NShe'll kill me if she catches me\Neating pasta in a restaurant.
+Dialogue: 0,0:49:34.92,0:49:37.09,Default,,0,0,0,,快点吃完。\NEat up, quickly.
+Dialogue: 0,0:49:46.25,0:49:49.12,Default,,0,0,0,,你认为我能自己拿这两个包吗？\NYou think l can carry these two bags\Nby myself?
+Dialogue: 0,0:49:49.25,0:49:53.50,Default,,0,0,0,,妈妈。。。罗伯托和电梯。这还不够吗？\NMamma... Roberto and an elevator.\Nlsn't that enough?
+Dialogue: 0,0:49:54.58,0:49:57.16,Default,,0,0,0,,-你今天吃了什么？\N-只是一小杯咖啡。\N- What have you had today?\N- Just a small coffee.
+Dialogue: 0,0:49:57.29,0:50:01.62,Default,,0,0,0,,我明天要潜水。啊，还记得小雅克吗？雅克·马约尔？\Nl am diving tomorrow. Ah,\Nremember little Jacques? Jacques Mayol?
+Dialogue: 0,0:50:01.75,0:50:03.79,Default,,0,0,0,,还有他的朋友乔安娜。\NAnd his friend, Johana.
+Dialogue: 0,0:50:04.38,0:50:06.46,Default,,0,0,0,,她很漂亮，不是吗？\NShe is beautiful, no?
+Dialogue: 0,0:50:10.29,0:50:12.54,Default,,0,0,0,,意大利面德尔马！\NSpaghetti del mare!
+Dialogue: 0,0:50:24.96,0:50:27.04,Default,,0,0,0,,我太饿了！\Nl'm so hungry!
+Dialogue: 0,0:50:37.67,0:50:39.63,Default,,0,0,0,,欢迎\NWelcome!
+Dialogue: 0,0:50:58.00,0:51:00.33,Default,,0,0,0,,就是这样。\NThis is it.
+Dialogue: 0,0:51:07.25,0:51:10.17,Default,,0,0,0,,所以，你这几天会很忙，是吗？\NSo, you're gonna be\Nreally busy these days, eh?
+Dialogue: 0,0:51:10.29,0:51:12.37,Default,,0,0,0,,我不知道。\Nl don't know.
+Dialogue: 0,0:51:13.25,0:51:14.83,Default,,0,0,0,,为什么？\NWhy?
+Dialogue: 0,0:51:14.96,0:51:17.04,Default,,0,0,0,,L因为我。。。\Nl... Because l...
+Dialogue: 0,0:51:18.13,0:51:20.25,Default,,0,0,0,,我不知道。我只是想。。。\Nl don't know. l just thought...
+Dialogue: 0,0:51:21.88,0:51:24.42,Default,,0,0,0,,你有比赛，面试。\NYou have the competition, interviews.
+Dialogue: 0,0:51:24.54,0:51:29.58,Default,,0,0,0,,像这样的比赛需要\N高度集中注意力。。。不是吗？\NA competition like this requires\Na great deal of concentration... Doesn't it?
+Dialogue: 0,0:51:37.33,0:51:39.41,Default,,0,0,0,,你现在可以放下袋子了。\NYou can put down the bags now.
+Dialogue: 0,0:51:49.79,0:51:54.25,Default,,0,0,0,,我们得为典礼做好准备。塔希提人是新的世界冠军。\NWe have to get ready for the ceremony.\NThe Tahitian is the new world champion.
+Dialogue: 0,0:51:54.38,0:51:56.46,Default,,0,0,0,,我累了。我不喜欢。\Nl'm tired. l don't feel like it.
+Dialogue: 0,0:51:57.54,0:51:59.75,Default,,0,0,0,,罗伯托，夹克。\NRoberto, the jacket.
+Dialogue: 0,0:52:01.00,0:52:03.08,Default,,0,0,0,,-这个？\N-是的。\N- This one?\N- Yes.
+Dialogue: 0,0:52:08.83,0:52:10.91,Default,,0,0,0,,非常好。\NVery good.
+Dialogue: 0,0:52:15.04,0:52:17.16,Default,,0,0,0,,那鞋子呢？\NWhat about the shoes?
+Dialogue: 0,0:52:19.63,0:52:21.21,Default,,0,0,0,,很别致。\NVery chic.
+Dialogue: 0,0:52:21.33,0:52:24.37,Default,,0,0,0,,-你没有别的东西了，是吗？\N-没有。\N- You don't have anything else, do you?\N- No.
+Dialogue: 0,0:52:24.50,0:52:27.37,Default,,0,0,0,,那就很别致了。走吧。\NThen it's very chic. Let's go.
+Dialogue: 0,0:52:41.88,0:52:45.21,Default,,0,0,0,,女士们先生们，请注意。\NLadies and gentlemen,\Nyour attention, please.
+Dialogue: 0,0:52:45.33,0:52:49.91,Default,,0,0,0,,安德烈·博内，国际拳击锦标赛委员会主席。。。\NAndre Bonnet, president of the International\NDiving Championship Committee...
+Dialogue: 0,0:52:53.04,0:52:55.33,Default,,0,0,0,,把这个奖杯献给新的世界冠军。\Nthis trophy to the new world champion.
+Dialogue: 0,0:52:55.46,0:53:00.46,Default,,0,0,0,,今天下午，我们的新冠军到达了非凡的深度。。。\NThis afternoon, our new champion\Ndescended to the remarkable depth...
+Dialogue: 0,0:53:00.58,0:53:03.08,Default,,0,0,0,,310英尺的高度。\Nof 310 feet.
+Dialogue: 0,0:53:06.38,0:53:08.46,Default,,0,0,0,,一天的英雄。\NA one-day hero.
+Dialogue: 0,0:53:10.96,0:53:12.88,Default,,0,0,0,,总统先生，如果你愿意。。。\NMr President, if you please...
+Dialogue: 0,0:53:15.08,0:53:17.20,Default,,0,0,0,,一项新的世界纪录。太好了。\NA new world record. That's great.
+Dialogue: 0,0:53:17.33,0:53:19.83,Default,,0,0,0,,它给了我明天要打败的东西。\Nlt gives me something to beat tomorrow.
+Dialogue: 0,0:53:19.96,0:53:22.25,Default,,0,0,0,,你去过大溪地吗？\NHave you ever been to Tahiti?
+Dialogue: 0,0:53:23.00,0:53:26.79,Default,,0,0,0,,我带你去那儿。我们将生活在阳光下。\N你将煮鲜鱼。。。\Nl'll take you there. We'll live in the sun.\NYou'll cook fresh fish...
+Dialogue: 0,0:53:26.92,0:53:29.79,Default,,0,0,0,,我们会在椰子树下做爱。\Nand we'll make love\Nunder the coconut trees.
+Dialogue: 0,0:53:29.92,0:53:32.29,Default,,0,0,0,,嘿，等等。\N你怎么做饭？\NHey, wait.\NHow about you do the cooking?
+Dialogue: 0,0:53:32.42,0:53:34.50,Default,,0,0,0,,你忘了草裙舞。\NAnd you forgot the hula.
+Dialogue: 0,0:53:34.63,0:53:37.30,Default,,0,0,0,,请原谅我\NExcuse me.
+Dialogue: 0,0:53:45.67,0:53:49.34,Default,,0,0,0,,他看起来很奇怪，不是吗？\N像个刚学会走路的婴儿。\NHe looks strange, doesn't he?\NLike a baby who just learned to walk.
+Dialogue: 0,0:53:50.92,0:53:53.21,Default,,0,0,0,,-你认识他很久了吗？\N-永远。\N- Have you known him long?\N- For ever.
+Dialogue: 0,0:53:53.33,0:53:57.62,Default,,0,0,0,,我们小时候住在希腊的同一个岛上。\NWe used to live on the same island in Greece,\Nwhen we were kids.
+Dialogue: 0,0:54:00.25,0:54:03.12,Default,,0,0,0,,-他小时候是什么样子的？\N-小。\N- What was he like when he was little?\N- Little.
+Dialogue: 0,0:54:03.25,0:54:05.25,Default,,0,0,0,,很少。\NVery little.
+Dialogue: 0,0:54:05.38,0:54:07.42,Default,,0,0,0,,也就是说，和我相比。\NThat is, compared to me.
+Dialogue: 0,0:54:07.54,0:54:10.96,Default,,0,0,0,,-我明白了，恩佐。你是个优秀的孩子。\N-没错。\N- l get it, Enzo. You were a superior child.\N- Exactly.
+Dialogue: 0,0:54:12.00,0:54:14.12,Default,,0,0,0,,怎么了，乔安娜？\NWhat is it, Johana?
+Dialogue: 0,0:54:14.25,0:54:17.71,Default,,0,0,0,,你对他那么着迷，\N你不明白真相吗？\NYou are so crazy about him,\Nyou don't see the truth?
+Dialogue: 0,0:54:17.83,0:54:22.04,Default,,0,0,0,,不要把雅克当作一个人。他来自另一个世界。\NDon't think of Jacques as a human being.\NHe is from another world.
+Dialogue: 0,0:54:24.17,0:54:26.71,Default,,0,0,0,,你来自哪个世界，恩佐？\NAnd just what world are you from, Enzo?
+Dialogue: 0,0:54:27.83,0:54:29.41,Default,,0,0,0,,意大利！\Nltalia!
+Dialogue: 0,0:54:39.75,0:54:41.79,Default,,0,0,0,,现在，我的朋友们，\NAnd now, my friends,
+Dialogue: 0,0:54:41.92,0:54:45.09,Default,,0,0,0,,我们邀请你们在游泳池边喝一杯。\Nyou are all invited for a drink\Naround the swim pool.
+Dialogue: 0,0:55:16.08,0:55:19.87,Default,,0,0,0,,今天午餐时，你问我有什么问题。\NToday, at lunch, you asked me\Nif l had any questions.
+Dialogue: 0,0:55:21.42,0:55:23.96,Default,,0,0,0,,你终于想了解女人了！\NYou finally want to know about women!
+Dialogue: 0,0:55:26.04,0:55:29.16,Default,,0,0,0,,-它们是最重要的吗？\N-不是。\N- Are they what's most important?\N- No.
+Dialogue: 0,0:55:29.29,0:55:31.37,Default,,0,0,0,,视情况而定。\Nlt depends.
+Dialogue: 0,0:55:32.38,0:55:34.46,Default,,0,0,0,,有时他们是。\NSometime they are.
+Dialogue: 0,0:55:36.08,0:55:38.25,Default,,0,0,0,,你到底想知道什么？\NWhat exactly do you want to know?
+Dialogue: 0,0:55:39.04,0:55:41.25,Default,,0,0,0,,一切。\NEverything.
+Dialogue: 0,0:55:42.54,0:55:44.58,Default,,0,0,0,,关于什么的一切？\NEverything about what?
+Dialogue: 0,0:55:46.92,0:55:49.04,Default,,0,0,0,,关于一切。\NAbout everything.
+Dialogue: 0,0:56:07.79,0:56:10.37,Default,,0,0,0,,所以，在妈妈，罗伯托和阿尔弗雷多之间，\NSo, between Mamma,\NRoberto and Alfredo,
+Dialogue: 0,0:56:10.50,0:56:12.54,Default,,0,0,0,,我们整天大喊大叫。\Nwe yell and scream all day long.
+Dialogue: 0,0:56:12.67,0:56:15.17,Default,,0,0,0,,除了当归。她只是哭。\NExcept with Angelica. She just cries.
+Dialogue: 0,0:56:16.21,0:56:19.88,Default,,0,0,0,,最后，我们都接吻了。\NAnd then, finally, we all end up kissing.
+Dialogue: 0,0:56:20.00,0:56:22.04,Default,,0,0,0,,你能给我解释一下吗？\NCan you explain that to me?
+Dialogue: 0,0:56:26.00,0:56:28.46,Default,,0,0,0,,因为这就是爱的全部。\NBecause that's what love is all about.
+Dialogue: 0,0:56:28.58,0:56:30.62,Default,,0,0,0,,真让人头疼，\Nlt's a pain in the ass,
+Dialogue: 0,0:56:30.75,0:56:32.83,Default,,0,0,0,,但它让我们在一起。\Nbut it keeps us together.
+Dialogue: 0,0:56:35.42,0:56:37.50,Default,,0,0,0,,一个大的。。。\NA large...
+Dialogue: 0,0:56:38.63,0:56:40.75,Default,,0,0,0,,而且很漂亮。。。\Nand beautiful...
+Dialogue: 0,0:56:44.88,0:56:47.09,Default,,0,0,0,,家庭\Nfamily.
+Dialogue: 0,0:56:58.63,0:57:00.92,Default,,0,0,0,,我们必须退出这场比赛。\NWe've gotta quit this competition.
+Dialogue: 0,0:57:01.04,0:57:03.12,Default,,0,0,0,,为什么？\NWhy?
+Dialogue: 0,0:57:03.25,0:57:05.67,Default,,0,0,0,,余弦。。。如果我们不这么做，\NCos... if we don't,
+Dialogue: 0,0:57:05.79,0:57:08.41,Default,,0,0,0,,我要打败你。\Nl'm gonna beat you.
+Dialogue: 0,0:57:14.88,0:57:17.59,Default,,0,0,0,,你听到了吗？\NDo you hear that?
+Dialogue: 0,0:57:23.04,0:57:25.08,Default,,0,0,0,,-什么？\N-他看着我的眼睛。。。\N- What?\N- He looks me in the eye...
+Dialogue: 0,0:57:25.21,0:57:27.25,Default,,0,0,0,,就像一些该死的金鱼。。。\Nlike some fucking goldfish...
+Dialogue: 0,0:57:27.38,0:57:30.84,Default,,0,0,0,,然后说我要打败你。”\Nand says... "l'm gonna beat you."
+Dialogue: 0,0:57:42.88,0:57:45.17,Default,,0,0,0,,你们来就是为了这个。\NThat's what you guys are here for.
+Dialogue: 0,0:57:45.29,0:57:47.33,Default,,0,0,0,,哈听她的！\NHa! Listen to her!
+Dialogue: 0,0:57:47.46,0:57:49.75,Default,,0,0,0,,他来这里就是为了这个！\NThat's what he's here for!
+Dialogue: 0,0:57:50.92,0:57:54.25,Default,,0,0,0,,他是来输的\N这就是他来这里的目的。\NHe's here to lose!\NThat's what he's here for.
+Dialogue: 0,0:57:54.38,0:57:56.88,Default,,0,0,0,,首先，我是无敌的。\NFirst of all, l am unbeatable.
+Dialogue: 0,0:57:58.50,0:58:00.17,Default,,0,0,0,,第二\NSecond...
+Dialogue: 0,0:58:00.29,0:58:03.46,Default,,0,0,0,,-你多大了？\N-比你小两岁。\N- How old are you?\N- Two years younger than you.
+Dialogue: 0,0:58:03.58,0:58:05.66,Default,,0,0,0,,就像我说的，\NAs l said,
+Dialogue: 0,0:58:05.79,0:58:08.12,Default,,0,0,0,,其次，你太瘦了。\Nsecond of all, you're too skinny.
+Dialogue: 0,0:58:08.25,0:58:13.62,Default,,0,0,0,,你的肺很小。我还是不明白\N你怎么能潜水而不生病。\NYou've got tiny lungs. l still don't understand\Nhow you can dive without getting sick.
+Dialogue: 0,0:58:13.75,0:58:19.62,Default,,0,0,0,,肺部的大小\N与此无关。\NThe size of the lungs\Nhas nothing to do with it.
+Dialogue: 0,0:58:19.75,0:58:22.62,Default,,0,0,0,,你能屏住呼吸多久？\NHow long can you hold your breath?
+Dialogue: 0,0:58:24.46,0:58:26.50,Default,,0,0,0,,比你长。\NLonger than you.
+Dialogue: 0,1:00:04.00,1:00:06.58,Default,,0,0,0,,嘿别紧张！上帝啊\NHey! Take it easy! Jesus!
+Dialogue: 0,1:00:09.63,1:00:11.75,Default,,0,0,0,,你疯了吗？\NAre you mad?
+Dialogue: 0,1:00:24.00,1:00:26.08,Default,,0,0,0,,来吧，我来帮你。\NCome on, let me help you with this.
+Dialogue: 0,1:00:26.21,1:00:28.42,Default,,0,0,0,,-谁赢了？\N-什么？混蛋奖？\N- Who won?\N- What? The Asshole Award?
+Dialogue: 0,1:00:28.54,1:00:30.54,Default,,0,0,0,,让我告诉你，那是一条领带。\NLet me tell you, it was a tie.
+Dialogue: 0,1:00:30.67,1:00:33.21,Default,,0,0,0,,表现得像一对两岁的孩子。\NActing like a pair of two-year-olds.
+Dialogue: 0,1:00:33.33,1:00:35.83,Default,,0,0,0,,你可能死在那个池子里了。\NYou could've died in that pool.
+Dialogue: 0,1:00:43.50,1:00:45.96,Default,,0,0,0,,别动。你把船摇起来了。\NStop moving. You're rocking the boat.
+Dialogue: 0,1:00:46.08,1:00:48.16,Default,,0,0,0,,很幸运，我是来救你的。\NLuckily, l was there to save you.
+Dialogue: 0,1:00:52.50,1:00:54.29,Default,,0,0,0,,我的钱包。\NMy wallet.
+Dialogue: 0,1:00:57.00,1:00:59.79,Default,,0,0,0,,-在这里。\N-不，不。我想给你看。\N- lt's here.\N- No, no. l wanna show you.
+Dialogue: 0,1:00:59.92,1:01:02.00,Default,,0,0,0,,把它给我。\NGive it to me.
+Dialogue: 0,1:01:05.00,1:01:06.67,Default,,0,0,0,,坐下来\NSit down.
+Dialogue: 0,1:01:25.88,1:01:28.00,Default,,0,0,0,,那是我的家人。\NThat's my family.
+Dialogue: 0,1:01:42.63,1:01:44.71,Default,,0,0,0,,什么样的人。。。\NWhat kind of man...
+Dialogue: 0,1:01:45.42,1:01:47.50,Default,,0,0,0,,有这样的家庭吗？\Nhas such a family?
+Dialogue: 0,1:02:03.71,1:02:05.79,Default,,0,0,0,,没事的。\Nlt's OK.
+Dialogue: 0,1:02:11.04,1:02:13.12,Default,,0,0,0,,没事的。\Nlt's all right.
+Dialogue: 0,1:03:10.50,1:03:13.21,Default,,0,0,0,,所有的医生都在找你，恩佐。\NAll the medics are looking for you, Enzo.
+Dialogue: 0,1:03:13.33,1:03:15.37,Default,,0,0,0,,我在冥想！你看不见吗？\Nl am meditating! Can't you see?
+Dialogue: 0,1:03:15.50,1:03:18.58,Default,,0,0,0,,雅克在下床前做了两个小时的瑜伽！\NJacques does two hours of yoga\Nbefore going down!
+Dialogue: 0,1:03:18.71,1:03:20.79,Default,,0,0,0,,我可以小睡五分钟！\Nl can have a five-minute nap!
+Dialogue: 0,1:03:35.88,1:03:38.13,Default,,0,0,0,,莫里纳里先生，对不起，\NMr Molinari, l am sorry,
+Dialogue: 0,1:03:38.25,1:03:41.54,Default,,0,0,0,,但你不能在这种精疲力竭的状态下潜水。\Nbut you cannot dive\Nin this state of exhaustion.
+Dialogue: 0,1:03:46.46,1:03:48.88,Default,,0,0,0,,你对大海了解多少？\N什么都不知道！\NWhat do you know about the sea?\NNothing!
+Dialogue: 0,1:03:49.00,1:03:52.00,Default,,0,0,0,,所以你就把管子和罐头拿走。\NSo you just take your tubes\Nand your tin cans away.
+Dialogue: 0,1:03:52.75,1:03:54.79,Default,,0,0,0,,大海是我的。\NThe sea is mine.
+Dialogue: 0,1:03:54.92,1:03:58.00,Default,,0,0,0,,我知道她什么时候准备好了，什么时候没有。\Nl know when she is ready for me\Nand when she isn't.
+Dialogue: 0,1:03:58.13,1:04:00.25,Default,,0,0,0,,今天她准备好了。\NAnd today she is ready.
+Dialogue: 0,1:04:01.96,1:04:03.92,Default,,0,0,0,,你自担风险潜水。\NYou dive at your own risk.
+Dialogue: 0,1:04:35.33,1:04:37.29,Default,,0,0,0,,一分钟！\NOne minute!
+Dialogue: 0,1:05:48.04,1:05:50.50,Default,,0,0,0,,你的裤子对我来说太大了。\NYour trousers are too big for me.
+Dialogue: 0,1:05:56.92,1:05:59.00,Default,,0,0,0,,他们在哪里？\NWhere are they?
+Dialogue: 0,1:06:07.25,1:06:11.04,Default,,0,0,0,,-所有人都去哪了？\N-他们走了。\N- Where is everybody?\N- They're gone.
+Dialogue: 0,1:06:11.17,1:06:13.25,Default,,0,0,0,,出事了。\NSomething's wrong.
+Dialogue: 0,1:06:26.58,1:06:28.62,Default,,0,0,0,,你不能那样做。\NYou can't do that.
+Dialogue: 0,1:06:28.75,1:06:30.79,Default,,0,0,0,,怎么了\NWhat's the matter?
+Dialogue: 0,1:06:30.92,1:06:32.92,Default,,0,0,0,,我不明白。\Nl don't understand.
+Dialogue: 0,1:06:33.04,1:06:35.41,Default,,0,0,0,,我已经试了两天了。他们不吃东西。\Nl've tried for two days. They won't eat.
+Dialogue: 0,1:06:35.54,1:06:37.54,Default,,0,0,0,,他们不会表演的。\NThey won't perform.
+Dialogue: 0,1:06:37.67,1:06:39.79,Default,,0,0,0,,自从我们有了新的。\NSince we got a new one.
+Dialogue: 0,1:06:44.42,1:06:47.13,Default,,0,0,0,,今天结束了。\Nlt's finished for today.
+Dialogue: 0,1:06:47.25,1:06:49.33,Default,,0,0,0,,她是新来的。\NShe's a new one.
+Dialogue: 0,1:06:50.83,1:06:52.91,Default,,0,0,0,,你怎么知道是女的？\NHow can you tell it's a female?
+Dialogue: 0,1:06:54.92,1:06:57.00,Default,,0,0,0,,这是她移动的方式。\Nlt's the way she moves.
+Dialogue: 0,1:08:35.79,1:08:39.08,Default,,0,0,0,,别难过。我只收回了我的东西。\NDon't be sad.\Nl only took back what was mine.
+Dialogue: 0,1:08:39.21,1:08:41.29,Default,,0,0,0,,在这里一份礼物。\NHere. A present.
+Dialogue: 0,1:08:41.42,1:08:46.21,Default,,0,0,0,,今晚我们有一个小小的聚会。八点钟在我的套房。\NTonight we're having a little party\Namong ourselves. Eight o'clock in my suite.
+Dialogue: 0,1:08:48.75,1:08:52.00,Default,,0,0,0,,罗伯托先生，告诉你哥哥要讲道理。\NMr Roberto, tell your brother\Nto be reasonable.
+Dialogue: 0,1:08:52.13,1:08:54.59,Default,,0,0,0,,大家都在楼上等他。\NEverybody's waiting for him upstairs.
+Dialogue: 0,1:08:54.71,1:08:57.38,Default,,0,0,0,,他不能！他不舒服！\NHe can't! He's indisposed!
+Dialogue: 0,1:08:57.50,1:08:59.54,Default,,0,0,0,,我们去叫医生好吗？\NShall we call a doctor?
+Dialogue: 0,1:08:59.67,1:09:02.42,Default,,0,0,0,,不，不！妈妈，她在尝试什么！\NNo, no! La Mamma,\Nshe is trying something!
+Dialogue: 0,1:09:05.63,1:09:07.88,Default,,0,0,0,,马约尔先生，帮帮我们。\NMr Mayol, help us.
+Dialogue: 0,1:09:08.00,1:09:11.37,Default,,0,0,0,,他拒绝接受勋章，大家都在等他。\NHe refuses to receive his medal,\Nand everybody's waiting for him.
+Dialogue: 0,1:09:14.92,1:09:17.63,Default,,0,0,0,,-我会尽力的。\N-你真是太好了。\N- l'll do my best.\N- That's very kind of you.
+Dialogue: 0,1:09:18.83,1:09:20.41,Default,,0,0,0,,我是雅克！\Nlt's Jacques!
+Dialogue: 0,1:09:22.21,1:09:24.29,Default,,0,0,0,,我的朋友！进来吧！\NMy friend! Come on in!
+Dialogue: 0,1:09:24.42,1:09:27.17,Default,,0,0,0,,莫里纳里先生，请允许我给你留下深刻印象。。。\NMr Molinari,\Nallow me to impress upon you...
+Dialogue: 0,1:09:27.29,1:09:30.87,Default,,0,0,0,,出席颁奖典礼的重要性。。。\Nthe importance of your attending\Nthe award ceremony...
+Dialogue: 0,1:09:31.00,1:09:33.08,Default,,0,0,0,,对媒体来说。\Nfor the press.
+Dialogue: 0,1:09:33.21,1:09:37.50,Default,,0,0,0,,我想我哥哥告诉过你我不舒服。\N应该这样做，不是吗？\Nl think my brother told you l was indisposed.\NThat should do it, no?
+Dialogue: 0,1:09:37.63,1:09:40.75,Default,,0,0,0,,我可以不舒服，对吧？\Nl am allowed to be indisposed, right?
+Dialogue: 0,1:09:40.88,1:09:44.71,Default,,0,0,0,,所以你去告诉媒体，\NSo you just go tell the press\Nthat the big Enzo Molinari,
+Dialogue: 0,1:09:44.83,1:09:49.66,Default,,0,0,0,,被他那令人振奋的324英尺的降落伞压得喘不过气来，\Noverwhelmed by his inspiring descent\Nof 324 feet,
+Dialogue: 0,1:09:49.79,1:09:52.54,Default,,0,0,0,,将无法收到他的小饰物。。。\Nwill not be able to receive his trinket...
+Dialogue: 0,1:09:52.67,1:09:54.29,Default,,0,0,0,,因为他是。。。\Nbecause he is...
+Dialogue: 0,1:09:54.42,1:09:56.54,Default,,0,0,0,,-嗯？\N-。。他是。。。\N- Hm?\N-.. he is...
+Dialogue: 0,1:09:56.67,1:09:58.50,Default,,0,0,0,,不舒服\NIndisposed!
+Dialogue: 0,1:10:03.17,1:10:05.21,Default,,0,0,0,,雅克，我的朋友！\NJacques, my friend!
+Dialogue: 0,1:10:05.33,1:10:10.33,Default,,0,0,0,,-你为什么不拿起你的勋章？\N-因为意大利面应该吃得很好！\N- Why don't you pick up your medal?\N- Because pasta should be eaten al dente!
+Dialogue: 0,1:10:28.33,1:10:30.41,Default,,0,0,0,,告诉我你怎么找到的。\NLet me know how you find it.
+Dialogue: 0,1:10:59.96,1:11:03.42,Default,,0,0,0,,我在纽约的办公室。那里真的很忙。\NMy office in New York.\Nlt's really busy back there.
+Dialogue: 0,1:11:03.54,1:11:05.58,Default,,0,0,0,,我有很多工作要做。\Nl have so much work to do.
+Dialogue: 0,1:11:09.17,1:11:11.92,Default,,0,0,0,,-你想要一些吗？\N-哦，不。\N- Do you want some?\N- Oh, no.
+Dialogue: 0,1:11:34.46,1:11:36.54,Default,,0,0,0,,怎么了\NWhat's the matter?
+Dialogue: 0,1:11:37.75,1:11:39.83,Default,,0,0,0,,我得请你帮个忙。\Nl have to ask you a favour.
+Dialogue: 0,1:11:49.67,1:11:51.96,Default,,0,0,0,,嘿，我们不是在偷海豚吧？\NHey, we're not stealing a dolphin, eh?
+Dialogue: 0,1:11:52.08,1:11:54.75,Default,,0,0,0,,不，我告诉过你，我们只是帮一个人。\NNo. l told you, we're just helping one out.
+Dialogue: 0,1:11:57.08,1:11:58.29,Default,,0,0,0,,想帮个忙吗？\NTrying to help one out?
+Dialogue: 0,1:12:01.33,1:12:03.62,Default,,0,0,0,,很好。\NGood.
+Dialogue: 0,1:12:18.83,1:12:21.79,Default,,0,0,0,,夜晚的陶尔米娜\N幸运的海豚，嗯？\NTaormina by night!\NLucky dolphin, eh?
+Dialogue: 0,1:12:25.29,1:12:27.37,Default,,0,0,0,,是 啊楼梯！\NYeah! Stairs!
+Dialogue: 0,1:13:14.08,1:13:17.70,Default,,0,0,0,,你现在可以停下来了。\N她需要的水都有了。\NYou can stop that now.\NShe has all the water she needs.
+Dialogue: 0,1:13:22.79,1:13:26.33,Default,,0,0,0,,好吧，我们做到了\N咱们回去参加聚会吧。\NAll right, we did it!\NLet's go back to the party.
+Dialogue: 0,1:13:46.75,1:13:48.83,Default,,0,0,0,,五分钟，就这样！好啊\NFive minutes, that's all! OK?
+Dialogue: 0,1:14:06.58,1:14:08.66,Default,,0,0,0,,晚安。\NNight.
+Dialogue: 0,1:14:08.79,1:14:11.12,Default,,0,0,0,,-晚安，雅克。晚安。\N- Good night, Jacques.\N- Good night.
+Dialogue: 0,1:14:17.63,1:14:20.50,Default,,0,0,0,,你不需要担架把她带走。\NYou don't need a stretcher\Nto take her with you.
+Dialogue: 0,1:14:20.63,1:14:23.34,Default,,0,0,0,,-你知道吗？\N-什么？\N- You know that?\N- What?
+Dialogue: 0,1:14:24.42,1:14:28.67,Default,,0,0,0,,海豚不是唯一一个有时感觉不太好的人。\NDolphins aren't the only ones\Nwho don't feel very good sometimes.
+Dialogue: 0,1:14:30.58,1:14:34.50,Default,,0,0,0,,雅克\N明天我能看你潜水吗？\NJacques!\NCan l watch you dive tomorrow?
+Dialogue: 0,1:14:49.58,1:14:52.91,Default,,0,0,0,,关于女人，你确实有一些东西要学。\NYou really do have\Na few things to learn about women.
+Dialogue: 0,1:15:26.25,1:15:28.58,Default,,0,0,0,,那些家伙是干什么的？\NWhat do those guys do?
+Dialogue: 0,1:15:28.71,1:15:30.75,Default,,0,0,0,,他们是医护人员。\NThey are paramedics.
+Dialogue: 0,1:15:30.88,1:15:33.00,Default,,0,0,0,,他们在200英尺处等待。\NThey wait at 200 feet.
+Dialogue: 0,1:15:51.67,1:15:53.50,Default,,0,0,0,,他呢？\NAnd him?
+Dialogue: 0,1:15:53.63,1:15:56.59,Default,,0,0,0,,那就是潜到300英尺以下的潜水员。\NThat is the diver who goes below 300 feet.
+Dialogue: 0,1:15:56.71,1:16:01.50,Default,,0,0,0,,他用氦氧混合物潜水。压缩空气太危险了。\NHe dives with a helium-oxygen mixture.\NCompressed air is too dangerous.
+Dialogue: 0,1:17:10.08,1:17:11.75,Default,,0,0,0,,三分钟！\NThree minutes!
+Dialogue: 0,1:23:48.92,1:23:51.50,Default,,0,0,0,,他跌到了360英尺！\NHe went down to 360 feet!
+Dialogue: 0,1:23:54.00,1:23:58.25,Default,,0,0,0,,恭喜你，雅克。太好了。我为你高兴。\NCongratulations, Jacques.\Nlt's wonderful. l'm happy for you.
+Dialogue: 0,1:23:58.38,1:24:01.92,Default,,0,0,0,,在这里\NHere.
+Dialogue: 0,1:24:02.04,1:24:05.00,Default,,0,0,0,,-是什么？\N-小礼物。没什么。\N- What is it?\N- Little presents. Nothing much.
+Dialogue: 0,1:24:06.21,1:24:09.00,Default,,0,0,0,,我就知道。我就知道。\Nl knew it. l just knew it.
+Dialogue: 0,1:24:14.21,1:24:15.75,Default,,0,0,0,,你还在收吗？\NDo you still collect them?
+Dialogue: 0,1:24:16.96,1:24:19.00,Default,,0,0,0,,你没有那个，是吗？\NYou don't have that one, do you?
+Dialogue: 0,1:24:22.54,1:24:24.83,Default,,0,0,0,,很漂亮。非常感谢。\Nlt's beautiful. Thank you.
+Dialogue: 0,1:24:24.96,1:24:27.04,Default,,0,0,0,,没什么。\Nlt's nothing.
+Dialogue: 0,1:24:27.17,1:24:29.21,Default,,0,0,0,,我就知道。我告诉罗伯托了。\Nl knew it. l told Roberto.
+Dialogue: 0,1:24:29.33,1:24:32.79,Default,,0,0,0,,他很好，那个小法国人。\N很好。\NHe's very good, that little Frenchman.\NVery good.
+Dialogue: 0,1:24:32.92,1:24:34.50,Default,,0,0,0,,这是首诗吗？\Nls this a poem?
+Dialogue: 0,1:24:34.63,1:24:38.13,Default,,0,0,0,,不，这是意大利面的配方。\NNo, it's a recipe\Nfor spaghetti frutti del mare.
+Dialogue: 0,1:24:41.29,1:24:46.21,Default,,0,0,0,,我把你带到这里是对的。你是世界冠军，我的朋友。\Nl was right in getting you out here.\NYou're a world champion, my friend.
+Dialogue: 0,1:24:57.83,1:24:58.87,Default,,0,0,0,,是卷尺。\Nlt's a measuring tape.
+Dialogue: 0,1:25:03.33,1:25:05.54,Default,,0,0,0,,你看到了吗？这是你的唱片。\NYou see? This is your record.
+Dialogue: 0,1:25:05.67,1:25:08.04,Default,,0,0,0,,比我的高三英尺。\NThree feet more than mine.
+Dialogue: 0,1:25:09.50,1:25:13.33,Default,,0,0,0,,从这里看，它看起来不怎么样，是吗？\NLooking at it from here,\Nit doesn't look like much, does it?
+Dialogue: 0,1:25:16.92,1:25:20.13,Default,,0,0,0,,留着你的小卷尺，我的朋友。\NKeep your little measuring tape, my friend.
+Dialogue: 0,1:25:20.25,1:25:23.17,Default,,0,0,0,,下次我打败你时，这将是一个很好的纪念品。\Nlt will be a nice souvenir\Nwhen l beat you next.
+Dialogue: 0,1:30:38.17,1:30:40.09,Default,,0,0,0,,你今晚过得愉快吗？\NDid you have a nice night?
+Dialogue: 0,1:30:40.92,1:30:42.50,Default,,0,0,0,,是 啊\NYeah.
+Dialogue: 0,1:30:46.25,1:30:48.29,Default,,0,0,0,,我和海豚在一起。\Nl was with the dolphin.
+Dialogue: 0,1:30:49.79,1:30:51.16,Default,,0,0,0,,整晚？\NAll night?
+Dialogue: 0,1:30:52.33,1:30:53.79,Default,,0,0,0,,是 啊\NYeah.
+Dialogue: 0,1:30:54.79,1:30:57.83,Default,,0,0,0,,-和海豚在一起？\N-是的。\N- With the dolphin?\N- Yeah.
+Dialogue: 0,1:31:04.08,1:31:07.25,Default,,0,0,0,,我得回纽约了。\Nl gotta get back to New York.
+Dialogue: 0,1:31:12.29,1:31:16.87,Default,,0,0,0,,因为我有我的工作，我有我的工作，我的。。。生活\NBecause l have my job,\Nl have my work and my... life.
+Dialogue: 0,1:31:32.21,1:31:34.29,Default,,0,0,0,,你能带我去火车站吗？\NWill you take me to the train station?
+Dialogue: 0,1:32:20.75,1:32:23.67,Default,,0,0,0,,如果你来过纽约，给我打个电话，好吗？\Nlf you're ever in New York,\Ngive me a call, OK?
+Dialogue: 0,1:32:44.71,1:32:48.00,Default,,0,0,0,,-我能进来吗？\N-没问题。我喜欢在睡梦中说话。\N- Can l come in?\N- No problem. l enjoy talking in my sleep.
+Dialogue: 0,1:32:56.29,1:32:59.21,Default,,0,0,0,,11点叫醒我。\NWake me up at 11.
+Dialogue: 0,1:33:24.50,1:33:29.62,Default,,0,0,0,,你为什么老是说话？没人关心你在说什么。\NWhy are you always talkin'? Nobody's\Ninterested in what you're talkin' about.
+Dialogue: 0,1:33:29.75,1:33:33.87,Default,,0,0,0,,所以别说了！其他人\N有话要说！明白吗？\NSo just stop talkin'! Other people\Nhave things to say! Understand?
+Dialogue: 0,1:33:34.00,1:33:36.37,Default,,0,0,0,,别说了！胡说八道！\NStop talkin'! lt's bullshit!
+Dialogue: 0,1:33:36.50,1:33:39.42,Default,,0,0,0,,-她走了？\N-是的，她走了！\N- She's gone?\N- Yes, she's gone!
+Dialogue: 0,1:33:41.88,1:33:43.88,Default,,0,0,0,,嘿，我会照顾你的。\NHey, l'm gonna take care of you.
+Dialogue: 0,1:33:44.00,1:33:46.25,Default,,0,0,0,,我有份工作，在石油钻台上。\Nl've got a job, on an oil rig.
+Dialogue: 0,1:33:46.38,1:33:47.80,Default,,0,0,0,,举手之劳\NNo sweat.
+Dialogue: 0,1:33:47.92,1:33:50.00,Default,,0,0,0,,我带你一起去。好啊\Nl'm taking you along. OK?
+Dialogue: 0,1:33:50.13,1:33:54.00,Default,,0,0,0,,快点，收拾好你的行李。\N你跟我来。\NCome on, get your bags packed.\NYou're coming with me.
+Dialogue: 0,1:33:55.38,1:33:57.46,Default,,0,0,0,,你这个蠢货。\NYou stupid bastard.
+Dialogue: 0,1:34:01.92,1:34:04.75,Default,,0,0,0,,我们会成为一个伟大的团队，我们两个。\NWe'll make a great team, the two of us.
+Dialogue: 0,1:34:04.88,1:34:06.88,Default,,0,0,0,,你会看到的。\NYou'll see.
+Dialogue: 0,1:34:07.00,1:34:09.12,Default,,0,0,0,,好啊\NOK?
+Dialogue: 0,1:35:30.46,1:35:32.75,Default,,0,0,0,,100英尺。\N100 feet.
+Dialogue: 0,1:35:38.92,1:35:40.96,Default,,0,0,0,,你还在想她。\NYou're still thinking about her.
+Dialogue: 0,1:35:41.08,1:35:44.37,Default,,0,0,0,,别再想她了。\NDon't think about her any more.
+Dialogue: 0,1:35:44.50,1:35:47.08,Default,,0,0,0,,世界上有那么多女人。\NThere are so many women in the world.
+Dialogue: 0,1:35:47.21,1:35:50.63,Default,,0,0,0,,到处都是女人。对吗？\NPlenty of women everywhere. Right?
+Dialogue: 0,1:35:50.75,1:35:52.79,Default,,0,0,0,,吸烟是绝对禁止的。\NSmoking is absolutely forbidden.
+Dialogue: 0,1:35:52.92,1:35:54.92,Default,,0,0,0,,还没亮呢。\Nlt isn't lit yet.
+Dialogue: 0,1:35:55.58,1:35:58.50,Default,,0,0,0,,你甚至不应该在船上放香烟。\NYou shouldn't even\Ncarry cigarettes on board.
+Dialogue: 0,1:36:00.21,1:36:03.08,Default,,0,0,0,,听着，我们也不能小便。\NListen, we're not supposed to piss, either.
+Dialogue: 0,1:36:03.21,1:36:06.42,Default,,0,0,0,,但这并不能阻止你把它带上飞机。\NBut that doesn't stop you\Nfrom carrying it on board.
+Dialogue: 0,1:36:06.96,1:36:09.04,Default,,0,0,0,,规则就是规则。\NThe rules are the rules.
+Dialogue: 0,1:36:10.25,1:36:12.21,Default,,0,0,0,,你叫什么名字？\NWhat's your name again?
+Dialogue: 0,1:36:13.04,1:36:14.62,Default,,0,0,0,,诺伊特。\NNoireuter.
+Dialogue: 0,1:36:14.75,1:36:16.79,Default,,0,0,0,,你说你是哪里人？\NAnd where did you say you were from?
+Dialogue: 0,1:36:19.25,1:36:20.75,Default,,0,0,0,,布鲁塞尔。\NBrussels.
+Dialogue: 0,1:36:26.00,1:36:27.83,Default,,0,0,0,,200\N200
+Dialogue: 0,1:36:40.00,1:36:42.29,Default,,0,0,0,,我17岁。\Nl was 17.
+Dialogue: 0,1:36:42.79,1:36:46.33,Default,,0,0,0,,我太爱她了，我想为她而死。\Nl loved her so much, l tried to die for her.
+Dialogue: 0,1:36:46.46,1:36:48.50,Default,,0,0,0,,两年后，\NTwo years later,
+Dialogue: 0,1:36:48.63,1:36:51.00,Default,,0,0,0,,我都记不起她的名字了。\Nl couldn't even remember her name.
+Dialogue: 0,1:36:51.83,1:36:56.37,Default,,0,0,0,,我告诉你，\N时间会抹去一切。\NLet me tell you,\Ntime erases everything.
+Dialogue: 0,1:36:56.50,1:36:58.25,Default,,0,0,0,,我不想抹掉任何东西。\Nl don't want to erase anything.
+Dialogue: 0,1:37:09.08,1:37:11.91,Default,,0,0,0,,450英尺。下降结束。\N450 feet. End of descent.
+Dialogue: 0,1:37:14.33,1:37:17.29,Default,,0,0,0,,我们在这里停留50分钟。\NWe'll be left here for 50 minutes.
+Dialogue: 0,1:37:17.42,1:37:19.92,Default,,0,0,0,,你的声音怎么了？\NWhat's with the voice?
+Dialogue: 0,1:37:20.04,1:37:23.04,Default,,0,0,0,,没什么。\N可能氦太高了。\Nlt's nothing.\NMaybe the helium is up too high.
+Dialogue: 0,1:37:24.96,1:37:28.75,Default,,0,0,0,,-声音恢复了吗？\N-对于其他人，是的。\N- Does the voice come back?\N- For others, yes.
+Dialogue: 0,1:37:28.88,1:37:31.42,Default,,0,0,0,,为你。。。谁知道呢？\NFor you... Who knows?
+Dialogue: 0,1:37:34.42,1:37:36.75,Default,,0,0,0,,试着跟我说话。\NTry speaking to me.
+Dialogue: 0,1:37:37.54,1:37:41.75,Default,,0,0,0,,我觉得这不好笑。\N我们在认真交谈！\Nl don't find this funny.\NWe were having a serious conversation!
+Dialogue: 0,1:37:46.13,1:37:48.21,Default,,0,0,0,,氦气没问题。\Nlt's OK for the helium.
+Dialogue: 0,1:37:49.63,1:37:52.05,Default,,0,0,0,,给，把你的手指给我。\NHere, give me your finger.
+Dialogue: 0,1:37:53.58,1:37:56.87,Default,,0,0,0,,那是酒精吗？\N这是禁止的！\Nls that alcohol?\NThat's really forbidden!
+Dialogue: 0,1:37:57.00,1:37:59.79,Default,,0,0,0,,嘿，你还有别的抱怨吗？\NHey, do you have any other complaints?
+Dialogue: 0,1:37:59.92,1:38:03.34,Default,,0,0,0,,列一张单子，我们把它贴在舷窗上。好啊\NMake a list and we'll stick it\Non the porthole. OK?
+Dialogue: 0,1:38:03.46,1:38:07.42,Default,,0,0,0,,-吮吸你的手指。\N-别开玩笑了。这是。。。\N- Suck your finger.\N- Stop kidding around. lt's...
+Dialogue: 0,1:38:07.54,1:38:10.00,Default,,0,0,0,,在这种压力下很危险-酒精。\Nlt's dangerous at this pressure - alcohol.
+Dialogue: 0,1:38:11.75,1:38:14.17,Default,,0,0,0,,恩佐，这里很深。\NEnzo, it's very deep down here.
+Dialogue: 0,1:38:14.29,1:38:16.37,Default,,0,0,0,,来吧，吮吸你的手指。\NCome on, suck your finger.
+Dialogue: 0,1:38:23.50,1:38:26.33,Default,,0,0,0,,啊，你会看到\N到处都是医务人员。\NAh, you'll be seeing\Nmermaids everywhere.
+Dialogue: 0,1:38:33.08,1:38:37.83,Default,,0,0,0,,一千名指挥官，我们从“嗜酒者匿名”那里得到了比利时人！\NA thousand commanders and we get\Nthe Belgian from Alcoholics Anonymous!
+Dialogue: 0,1:38:54.25,1:38:56.21,Default,,0,0,0,,明白了吗？\NAre we clear?
+Dialogue: 0,1:39:17.46,1:39:20.33,Default,,0,0,0,,你能听见我说话吗？\NCan you hear me?
+Dialogue: 0,1:42:50.50,1:42:52.58,Default,,0,0,0,,我是乔安娜。\Nlt's Johana.
+Dialogue: 0,1:42:53.58,1:42:55.29,Default,,0,0,0,,你好吗？\NHow are you?
+Dialogue: 0,1:42:58.71,1:43:00.33,Default,,0,0,0,,我被解雇了。\Nl got fired.
+Dialogue: 0,1:43:01.67,1:43:03.71,Default,,0,0,0,,我得到了恩佐的这份工作。\Nl got this job with Enzo.
+Dialogue: 0,1:43:03.83,1:43:05.87,Default,,0,0,0,,我们也被解雇了。\NWe got fired, too.
+Dialogue: 0,1:43:06.00,1:43:08.08,Default,,0,0,0,,真正地\NReally?
+Dialogue: 0,1:43:10.04,1:43:11.91,Default,,0,0,0,,很奇怪。\Nlt's strange.
+Dialogue: 0,1:43:19.00,1:43:21.04,Default,,0,0,0,,再跟我说几句。\NTalk to me some more.
+Dialogue: 0,1:43:21.17,1:43:25.34,Default,,0,0,0,,这很难。我不知道还能说什么。\N你离我太远了。\Nlt's hard. l don't know what else to say.\NYou're so far away.
+Dialogue: 0,1:43:27.25,1:43:29.33,Default,,0,0,0,,给我讲个故事。\NTell me a story.
+Dialogue: 0,1:43:31.17,1:43:33.25,Default,,0,0,0,,一个故事？\NA story?
+Dialogue: 0,1:43:36.88,1:43:39.71,Default,,0,0,0,,你知道这是怎么回事吗。。。\NDo you know how it is...
+Dialogue: 0,1:43:39.83,1:43:43.04,Default,,0,0,0,,你知道为了遇见美人鱼你应该做什么吗？\NDo you know what you're supposed to do\Nto meet a mermaid?
+Dialogue: 0,1:43:47.21,1:43:49.58,Default,,0,0,0,,你下到海底。。。\NYou go down to the bottom of the sea...
+Dialogue: 0,1:43:50.38,1:43:53.34,Default,,0,0,0,,水不再是蓝色了。。。\Nwhere the water isn't even blue any more...
+Dialogue: 0,1:43:53.46,1:43:55.46,Default,,0,0,0,,天空只是一个记忆。。。\Nand the sky is only a memory...
+Dialogue: 0,1:43:55.58,1:43:58.54,Default,,0,0,0,,你漂浮在那里，在寂静中，\Nand you float there, in the silence,
+Dialogue: 0,1:43:59.54,1:44:01.62,Default,,0,0,0,,你呆在那里。。。\Nand you stay there...
+Dialogue: 0,1:44:03.13,1:44:06.00,Default,,0,0,0,,你决定。。。你会为他们而死。\Nand you decide... that you'll die for them.
+Dialogue: 0,1:44:06.13,1:44:08.59,Default,,0,0,0,,只有到那时他们才会出来。\NOnly then do they start comin' out.
+Dialogue: 0,1:44:08.71,1:44:13.33,Default,,0,0,0,,他们来迎接你，并且审判你对他们的爱。\NThey come, and they greet you,\Nand they judge the love you have for them.
+Dialogue: 0,1:44:14.33,1:44:16.41,Default,,0,0,0,,如果是真心的话，\Nlf it's sincere,
+Dialogue: 0,1:44:17.88,1:44:19.96,Default,,0,0,0,,如果是纯的，\Nif it's pure,
+Dialogue: 0,1:44:21.54,1:44:23.62,Default,,0,0,0,,他们会和你在一起。。。\Nthey'll be with you...
+Dialogue: 0,1:44:24.63,1:44:26.71,Default,,0,0,0,,把你永远带走。\Nand take you away for ever.
+Dialogue: 0,1:44:34.54,1:44:37.04,Default,,0,0,0,,我喜欢这个故事。\Nl like that story.
+Dialogue: 0,1:46:34.92,1:46:36.50,Default,,0,0,0,,这是怎么一回事？\NWhat is it?
+Dialogue: 0,1:46:38.33,1:46:40.41,Default,,0,0,0,,我想我爱你。\Nl think l love you.
+Dialogue: 0,1:47:15.38,1:47:17.42,Default,,0,0,0,,你住在这里？\NYou live here?
+Dialogue: 0,1:47:17.54,1:47:20.04,Default,,0,0,0,,是 啊有时候。\NYeah. Sometimes.
+Dialogue: 0,1:47:35.67,1:47:38.21,Default,,0,0,0,,-那是谁？\N-那是我叔叔路易斯。\N- Who's that?\N- That's my Uncle Louis.
+Dialogue: 0,1:47:45.71,1:47:47.88,Default,,0,0,0,,我不能把他从浴缸里弄出来。\Nl can't get him out of the bathtub.
+Dialogue: 0,1:48:04.58,1:48:06.16,Default,,0,0,0,,莎辛那\NAssassin!
+Dialogue: 0,1:48:08.00,1:48:10.50,Default,,0,0,0,,路易斯叔叔\N这是我的朋友乔安娜！\NUncle Louis!\NThis is my friend Johana!
+Dialogue: 0,1:48:13.29,1:48:15.33,Default,,0,0,0,,乔安娜来看我了！\NJohana is visiting me!
+Dialogue: 0,1:48:15.46,1:48:17.50,Default,,0,0,0,,他有点聋。他75岁了。\NHe's a bit deaf. He's 75.
+Dialogue: 0,1:48:17.63,1:48:20.63,Default,,0,0,0,,很高兴见到你，路易斯叔叔！\Nlt's very nice to meet you, Uncle Louis!
+Dialogue: 0,1:48:42.33,1:48:45.54,Default,,0,0,0,,那么，你从哪里来，亨利埃塔？\NSo, where are you from, Henrietta?
+Dialogue: 0,1:48:45.67,1:48:48.00,Default,,0,0,0,,乔安娜！纽约！\NJohana! New York!
+Dialogue: 0,1:48:50.00,1:48:52.71,Default,,0,0,0,,纽约？那是什么名字？\NNew York? What kind of name is that?
+Dialogue: 0,1:48:52.83,1:48:56.41,Default,,0,0,0,,-不，我是从纽约来的。\N-哦，是的！\N- No, l'm from New York.\N- Oh, yeah!
+Dialogue: 0,1:48:57.54,1:49:00.33,Default,,0,0,0,,最好的腿来自纽约！\NThe best legs are from New York!
+Dialogue: 0,1:49:04.54,1:49:06.58,Default,,0,0,0,,路易斯叔叔。。。\NUncle Louis...
+Dialogue: 0,1:49:08.42,1:49:10.54,Default,,0,0,0,,乔安娜是我的朋友。\NJohana is my friend.
+Dialogue: 0,1:49:16.08,1:49:18.79,Default,,0,0,0,,她来了。。。跟我在一起。。。\NShe's come to... stay with me...
+Dialogue: 0,1:49:20.79,1:49:22.83,Default,,0,0,0,,一段时间。\Nfor a while.
+Dialogue: 0,1:49:22.96,1:49:26.04,Default,,0,0,0,,很好。那样我会见到更多的你。\NGood. That way l'll see more of you.
+Dialogue: 0,1:49:26.17,1:49:28.21,Default,,0,0,0,,你要住在哪里？\NWhere are you gonna stay?
+Dialogue: 0,1:49:29.21,1:49:33.46,Default,,0,0,0,,-这里。\N-这里？在我公寓里？\N- Here.\N- Here? ln my apartment?
+Dialogue: 0,1:49:34.21,1:49:36.25,Default,,0,0,0,,这是我的公寓。\Nlt's my apartment.
+Dialogue: 0,1:49:36.38,1:49:39.50,Default,,0,0,0,,说谎者！作弊！折磨者！\NLiar! Cheat! Torturer!
+Dialogue: 0,1:49:39.63,1:49:42.80,Default,,0,0,0,,路易斯叔叔，回你的浴缸去。\NUncle Louis, go back to your bathtub.
+Dialogue: 0,1:49:43.79,1:49:45.96,Default,,0,0,0,,我要把电话锁上。\Nl'm going to put a lock on the telephone.
+Dialogue: 0,1:49:49.38,1:49:52.00,Default,,0,0,0,,再喝点酒，路易斯叔叔。\NHave some more wine, Uncle Louis.
+Dialogue: 0,1:49:54.46,1:49:57.00,Default,,0,0,0,,谢谢你，亨利埃塔。\NThank you, Henrietta.
+Dialogue: 0,1:49:57.58,1:49:59.66,Default,,0,0,0,,我要改名了。\Nl'll change my name.
+Dialogue: 0,1:50:16.75,1:50:18.79,Default,,0,0,0,,这是，呃。。。\NThis is, er...
+Dialogue: 0,1:50:18.92,1:50:20.84,Default,,0,0,0,,我的房间。\Nmy room.
+Dialogue: 0,1:50:37.63,1:50:42.34,Default,,0,0,0,,恩佐打电话来。他下周过来参加另一场比赛。\NEnzo phoned. He's coming over next week\Nfor another competition.
+Dialogue: 0,1:50:45.46,1:50:48.38,Default,,0,0,0,,你也要参加比赛吗？\NAre you gonna compete, too?
+Dialogue: 0,1:50:48.50,1:50:49.79,Default,,0,0,0,,是 啊\NYeah.
+Dialogue: 0,1:50:58.83,1:51:01.16,Default,,0,0,0,,你确定你在这里没事吗？\NAre you sure you'll be all right here?
+Dialogue: 0,1:51:53.83,1:51:55.87,Default,,0,0,0,,他不喜欢迟到。\Nlt's not like him to be late.
+Dialogue: 0,1:51:56.00,1:51:58.25,Default,,0,0,0,,当然，\N有时他根本不出现。\NOf course,\Nsometimes he doesn't show up at all.
+Dialogue: 0,1:51:59.67,1:52:01.84,Default,,0,0,0,,两美元？！\NTwo dollars?!
+Dialogue: 0,1:52:01.96,1:52:05.83,Default,,0,0,0,,你甚至不需要抓鱼！\NYou didn't even need to catch the fish!
+Dialogue: 0,1:52:05.96,1:52:08.71,Default,,0,0,0,,它死于癌症！\Nlt died of cancer!
+Dialogue: 0,1:52:22.96,1:52:26.96,Default,,0,0,0,,-你从哪儿弄来的？\N-那个？这不是“那”。\N- Where did you get that?\N- That? This is not a "that".
+Dialogue: 0,1:52:27.08,1:52:30.66,Default,,0,0,0,,这位是西班牙著名女演员波妮塔·玛丽波莎，\NThis is Bonita Mariposa,\Nthe famous Spanish actress,
+Dialogue: 0,1:52:30.79,1:52:34.08,Default,,0,0,0,,谁会对清漆非常小心。。。\Nwho is going to be very careful\Nwith the varnish...
+Dialogue: 0,1:52:35.21,1:52:37.92,Default,,0,0,0,,…和他一起\N几天。\N...and who is spending\Na few days with us.
+Dialogue: 0,1:52:43.00,1:52:46.83,Default,,0,0,0,,-妈妈在哪？\N-你还有8个小时她才能到。\N- Where is Mamma?\N- You have 8 hours before she gets here.
+Dialogue: 0,1:52:51.67,1:52:55.71,Default,,0,0,0,,他真的快聋了。\NHe's really going totally deaf.
+Dialogue: 0,1:52:55.83,1:52:58.45,Default,,0,0,0,,我没有你瞎那么聋！\Nl'm not as deaf as you are blind!
+Dialogue: 0,1:52:59.63,1:53:03.38,Default,,0,0,0,,你管好你的眼睛，我管好我的耳朵！\NYou take care of your eyes,\Nand l'll take care of my ears!
+Dialogue: 0,1:53:03.88,1:53:06.21,Default,,0,0,0,,对不起，路易斯叔叔。\Nl'm sorry, Uncle Louis.
+Dialogue: 0,1:53:07.96,1:53:10.04,Default,,0,0,0,,快点，喝吧，孩子！\NCome on, drink up, my boy!
+Dialogue: 0,1:53:20.63,1:53:23.46,Default,,0,0,0,,嘿，告诉我，你在哪个世纪？\NHey, tell me, what century are you in?
+Dialogue: 0,1:53:23.58,1:53:25.95,Default,,0,0,0,,第二\NSecond.
+Dialogue: 0,1:53:33.58,1:53:35.62,Default,,0,0,0,,这是怎么回事？\NWhat's going on here?
+Dialogue: 0,1:53:35.75,1:53:38.42,Default,,0,0,0,,我们在听音乐。\N和恩佐。\NWe're listening to some music.\NWith Enzo.
+Dialogue: 0,1:53:41.50,1:53:44.67,Default,,0,0,0,,-我是劳伦斯医生。\N-啊！\N- This is Dr Laurence.\N- Ah!
+Dialogue: 0,1:53:45.67,1:53:48.96,Default,,0,0,0,,所以，你一定是著名的\NEnzo Molinari。\NSo, you must be the famous\NEnzo Molinari.
+Dialogue: 0,1:53:49.08,1:53:52.16,Default,,0,0,0,,在肉体上！我有这个荣幸。\Nln the flesh! l have that honour.
+Dialogue: 0,1:53:57.79,1:54:01.04,Default,,0,0,0,,上帝我有皱纹了。\NGod... l'm getting wrinkles.
+Dialogue: 0,1:54:01.17,1:54:04.17,Default,,0,0,0,,嗯，嗯。我长痘痘了。\NMm-hm. And l'm getting pimples.
+Dialogue: 0,1:54:06.46,1:54:08.96,Default,,0,0,0,,那么，你会永远住在这里吗？\NSo, are you gonna live here permanently?
+Dialogue: 0,1:54:09.08,1:54:11.87,Default,,0,0,0,,我不知道。\N事情发生得太快了。\Nl don't know.\NThings have happened so fast.
+Dialogue: 0,1:54:12.00,1:54:14.08,Default,,0,0,0,,我们还没谈过呢。\NWe haven't even talked about it.
+Dialogue: 0,1:54:15.79,1:54:18.12,Default,,0,0,0,,你非常相爱。我看得出来。\NYou're very much in love. l can tell.
+Dialogue: 0,1:54:22.46,1:54:24.42,Default,,0,0,0,,你有那种表情。\NYou have that look.
+Dialogue: 0,1:54:25.63,1:54:27.96,Default,,0,0,0,,想要孩子的女人的样子。\NThe look of a woman who wants a baby.
+Dialogue: 0,1:54:31.96,1:54:34.42,Default,,0,0,0,,我都没想过要孩子。\Nl haven't even thought of having a baby.
+Dialogue: 0,1:54:34.54,1:54:38.91,Default,,0,0,0,,天啊，我们只是。。。开始互相了解。那真的。。。\NGod, we're just... starting\Nto get to know each other. lt'd be really...
+Dialogue: 0,1:54:39.04,1:54:41.00,Default,,0,0,0,,真的吗？\NDo l really?
+Dialogue: 0,1:54:41.13,1:54:43.84,Default,,0,0,0,,嗯，也许他还没准备好，但是。。。\NWell, maybe he's not quite ready, but...
+Dialogue: 0,1:54:44.58,1:54:46.66,Default,,0,0,0,,他是个好人，很敏感。\Nhe's a nice guy, sensitive.
+Dialogue: 0,1:54:49.88,1:54:53.09,Default,,0,0,0,,我不能一个人生孩子。\NWell, l can't have a baby by myself.
+Dialogue: 0,1:54:53.21,1:54:55.63,Default,,0,0,0,,为什么不呢？我有个孩子。\NWhy not? l have a baby.
+Dialogue: 0,1:54:55.75,1:54:57.75,Default,,0,0,0,,我爱他的父亲。\Nl loved his father.
+Dialogue: 0,1:54:57.88,1:55:00.13,Default,,0,0,0,,我们不再在一起了但是。。。\NWe're not together any more but...
+Dialogue: 0,1:55:00.25,1:55:02.33,Default,,0,0,0,,我有他的孩子。\Nl have his baby.
+Dialogue: 0,1:55:04.67,1:55:07.67,Default,,0,0,0,,最后，你还是一个人做。\NAt the end, you do it alone anyway.
+Dialogue: 0,1:55:27.17,1:55:29.54,Default,,0,0,0,,用于分类的Enzo Molinari。\NEnzo Molinari for classification.
+Dialogue: 0,1:55:41.38,1:55:43.46,Default,,0,0,0,,他最后一次是什么时候？\NWhat was his last time?
+Dialogue: 0,1:55:45.21,1:55:48.13,Default,,0,0,0,,我不知道，但时间真的很长。\Nl don't know, but it was really long.
+Dialogue: 0,1:56:57.33,1:56:59.08,Default,,0,0,0,,嘿，还不错。\NHey, that's not bad.
+Dialogue: 0,1:57:06.04,1:57:08.12,Default,,0,0,0,,很好，恩佐。非常好。\NVery good, Enzo. Very good.
+Dialogue: 0,1:57:21.21,1:57:23.71,Default,,0,0,0,,那又怎么样？任何人都可能有糟糕的一天。\NSo what? Anybody can have a bad day.
+Dialogue: 0,1:57:23.83,1:57:27.25,Default,,0,0,0,,好吧，当大海不需要你的时候，我已经有很多次了。\NWell, l've had many,\Nwhen the sea doesn't want you.
+Dialogue: 0,1:57:27.38,1:57:31.67,Default,,0,0,0,,从来都不是大海。是妈妈，罗伯托，那个愚蠢的女演员！\Nlt's never the sea.\Nlt's Mamma, Roberto, that stupid actress!
+Dialogue: 0,1:57:33.67,1:57:35.75,Default,,0,0,0,,别打断我的球。\NDon't break my balls.
+Dialogue: 0,1:58:32.21,1:58:34.33,Default,,0,0,0,,你今天过得愉快吗？\NDid you have a nice day?
+Dialogue: 0,1:58:35.38,1:58:37.63,Default,,0,0,0,,恩佐今天过得不好。\NEnzo had a bad day.
+Dialogue: 0,1:58:40.38,1:58:41.96,Default,,0,0,0,,你潜水了吗？\NDid you dive?
+Dialogue: 0,1:58:46.96,1:58:48.92,Default,,0,0,0,,不，感觉不对。\NNo, it didn't feel right.
+Dialogue: 0,1:58:56.38,1:59:00.50,Default,,0,0,0,,是个可爱的孩子，嗯？\N我喜欢那个孩子。\Nlt's a cute baby, eh?\Nl love that baby.
+Dialogue: 0,2:00:47.79,2:00:50.29,Default,,0,0,0,,让他们试试。\NLet them try.
+Dialogue: 0,2:02:28.50,2:02:30.42,Default,,0,0,0,,他没事吧？\Nls he OK?
+Dialogue: 0,2:03:03.67,2:03:05.75,Default,,0,0,0,,他们在做什么？\NWhat are they doing?
+Dialogue: 0,2:03:06.38,2:03:08.30,Default,,0,0,0,,我不知道。\Nl don't know.
+Dialogue: 0,2:03:50.25,2:03:52.33,Default,,0,0,0,,太棒了！\NGreat time!
+Dialogue: 0,2:04:07.33,2:04:09.41,Default,,0,0,0,,怎么样？\NHow was it?
+Dialogue: 0,2:04:10.75,2:04:12.79,Default,,0,0,0,,很危险。\Nlt was dangerous.
+Dialogue: 0,2:04:12.92,2:04:15.00,Default,,0,0,0,,380英尺，\N380 feet,
+Dialogue: 0,2:04:15.13,2:04:17.88,Default,,0,0,0,,水下4分50秒。\Nfour minutes and 50 seconds underwater.
+Dialogue: 0,2:04:18.00,2:04:20.33,Default,,0,0,0,,伟大的\NGreat.
+Dialogue: 0,2:04:30.46,2:04:32.29,Default,,0,0,0,,非常感谢。非常感谢你。\NThank you. Thank you very much.
+Dialogue: 0,2:04:37.13,2:04:39.96,Default,,0,0,0,,我的儿子，太棒了！\NMy son, bravo!
+Dialogue: 0,2:04:43.88,2:04:45.55,Default,,0,0,0,,现在。。。\NNow...
+Dialogue: 0,2:04:47.67,2:04:53.09,Default,,0,0,0,,我相信你听到一些人说这对我们来说太危险了，不能继续下去。\Nl am sure you heard some people suggest\Nit is too dangerous for us to continue.
+Dialogue: 0,2:04:53.21,2:04:56.00,Default,,0,0,0,,危险，因为我们不知道如何测量。。。\NDangerous because\Nwe don't know how to measure...
+Dialogue: 0,2:04:56.13,2:04:59.84,Default,,0,0,0,,这种潜水的生理后果。\Nthe physiological consequences\Nof this type of dive.
+Dialogue: 0,2:04:59.96,2:05:04.63,Default,,0,0,0,,也因为潜水者不习惯潜到300英尺以下。\NAnd also because the scuba divers\Nare not used to going down below 300 feet.
+Dialogue: 0,2:05:06.33,2:05:08.37,Default,,0,0,0,,-但是…\N-他在说什么？\N- But...\N- What's he saying?
+Dialogue: 0,2:05:08.50,2:05:11.00,Default,,0,0,0,,…我们问了自由潜水员，\N...we asked the free divers,
+Dialogue: 0,2:05:11.13,2:05:13.30,Default,,0,0,0,,他们都坚持。。。\Nand they all insist...
+Dialogue: 0,2:05:13.42,2:05:16.17,Default,,0,0,0,,竞争还在继续。\Nthat the competition continue.
+Dialogue: 0,2:05:24.13,2:05:27.25,Default,,0,0,0,,祝你们好运。祝你好运\NGood luck to you all. Good luck.
+Dialogue: 0,2:06:41.88,2:06:44.00,Default,,0,0,0,,一分钟！\NOne minute!
+Dialogue: 0,2:08:34.13,2:08:36.17,Default,,0,0,0,,你不能呆在这里！\NYou can't stay here!
+Dialogue: 0,2:09:03.79,2:09:05.46,Default,,0,0,0,,你看见他了吗？\NDo you see him?
+Dialogue: 0,2:09:08.58,2:09:10.50,Default,,0,0,0,,嘿你看见他了吗？\NHey! Do you see him?
+Dialogue: 0,2:09:26.58,2:09:28.62,Default,,0,0,0,,雅克！\NJacques!
+Dialogue: 0,2:10:22.13,2:10:23.92,Default,,0,0,0,,400英尺。\N400 feet.
+Dialogue: 0,2:10:24.04,2:10:27.46,Default,,0,0,0,,400英尺！\N400 feet!
+Dialogue: 0,2:10:43.58,2:10:45.50,Default,,0,0,0,,你没事吧？\NYou all right?
+Dialogue: 0,2:10:55.17,2:10:57.13,Default,,0,0,0,,我马上就到！\Nl'll be right there!
+Dialogue: 0,2:10:57.25,2:10:58.33,Default,,0,0,0,,你好进来吧。\NHi! Come on in.
+Dialogue: 0,2:10:59.21,2:11:02.42,Default,,0,0,0,,-不，我想说再见。\N-你要走了？\N- No. l wanted to say goodbye.\N- You're leaving?
+Dialogue: 0,2:11:02.54,2:11:06.79,Default,,0,0,0,,是的。\N你能把这个给恩佐吗？\NYes.\NCould you please give this to Enzo?
+Dialogue: 0,2:11:11.54,2:11:13.62,Default,,0,0,0,,没用的。\Nlt's no use.
+Dialogue: 0,2:11:14.63,2:11:18.88,Default,,0,0,0,,告诉他我说再见了，然后给他一个吻。好啊\NJust tell him l said goodbye,\Nand give him a kiss for me. OK?
+Dialogue: 0,2:11:19.88,2:11:22.38,Default,,0,0,0,,-答应？\N-答应。\N- Promise?\N- Promise.
+Dialogue: 0,2:11:24.79,2:11:27.29,Default,,0,0,0,,也许你不该这么轻易放弃。\NMaybe you shouldn't give up so easily.
+Dialogue: 0,2:11:28.63,2:11:30.75,Default,,0,0,0,,这是给你的礼物。\NHere's a present for you.
+Dialogue: 0,2:11:35.17,2:11:37.29,Default,,0,0,0,,是你的孩子。\Nlt's your baby.
+Dialogue: 0,2:11:41.83,2:11:44.37,Default,,0,0,0,,相信我，它会改变你的生活，\NBelieve me, it will change your life,
+Dialogue: 0,2:11:44.50,2:11:46.50,Default,,0,0,0,,只是为了更好。\Nonly for the better.
+Dialogue: 0,2:11:49.75,2:11:52.00,Default,,0,0,0,,你照顾好自己，乔安娜。\NYou take care of yourself, Johana.
+Dialogue: 0,2:11:52.92,2:11:55.00,Default,,0,0,0,,你也是。\NYou, too.
+Dialogue: 0,2:14:05.88,2:14:08.50,Default,,0,0,0,,欢迎来到希腊，雅克\N你好吗？\NWelcome to Greece, Jacques!\NHow are you?
+Dialogue: 0,2:14:08.63,2:14:10.88,Default,,0,0,0,,欢迎，乔安娜。祝您旅途愉快？\NWelcome, Johana. Have a good trip?
+Dialogue: 0,2:14:11.00,2:14:14.37,Default,,0,0,0,,好的，让我告诉你所有的信息。\N跟我来。\NOK, let me give you all the information.\NCome with me.
+Dialogue: 0,2:14:32.92,2:14:35.00,Default,,0,0,0,,这让我恶心。\NThis is making me sick.
+Dialogue: 0,2:14:36.92,2:14:39.00,Default,,0,0,0,,为什么？\NWhy?
+Dialogue: 0,2:14:40.58,2:14:42.75,Default,,0,0,0,,你能给我一杯水吗？\NWould you give me a glass of water?
+Dialogue: 0,2:15:04.42,2:15:06.50,Default,,0,0,0,,对竞争感到紧张吗？\NNervous about the competition?
+Dialogue: 0,2:15:14.75,2:15:16.87,Default,,0,0,0,,你潜水的时候是什么感觉？\NWhat's it feel like when you dive?
+Dialogue: 0,2:15:23.25,2:15:26.04,Default,,0,0,0,,这是一种滑倒而不摔倒的感觉。\Nlt's a feeling of slipping without falling.
+Dialogue: 0,2:15:28.17,2:15:30.75,Default,,0,0,0,,最难的是当你触底的时候。\NThe hardest thing is when\Nyou hit the bottom.
+Dialogue: 0,2:15:33.75,2:15:35.25,Default,,0,0,0,,为什么？\NWhy?
+Dialogue: 0,2:15:39.63,2:15:42.96,Default,,0,0,0,,因为你必须找到一个好的理由回来。\NBecause you have to find\Na good reason to come back up.
+Dialogue: 0,2:15:43.08,2:15:45.25,Default,,0,0,0,,我很难找到一个。\NAnd l have a hard time finding one.
+Dialogue: 0,2:15:53.08,2:15:55.16,Default,,0,0,0,,我们也有同样的问题。\NWell, we have the same problem.
+Dialogue: 0,2:15:58.00,2:15:59.04,Default,,0,0,0,,为什么？\NWhy?
+Dialogue: 0,2:15:59.17,2:16:02.92,Default,,0,0,0,,因为我很难找到留下来的理由。\NBecause l have a hard time\Nfinding a good reason to stay.
+Dialogue: 0,2:16:25.96,2:16:28.04,Default,,0,0,0,,我找到一个。\Nl found one.
+Dialogue: 0,2:16:44.25,2:16:46.04,Default,,0,0,0,,他在吗？\Nls he here?
+Dialogue: 0,2:16:47.79,2:16:49.25,Default,,0,0,0,,是 啊\NYeah.
+Dialogue: 0,2:16:51.88,2:16:53.55,Default,,0,0,0,,很好。\NGood.
+Dialogue: 0,2:17:36.83,2:17:39.66,Default,,0,0,0,,当你在海里那样看我时，我很害怕。\Nlt scares me when you look\Nat the sea like that.
+Dialogue: 0,2:17:46.33,2:17:48.87,Default,,0,0,0,,我小时候常在这里潜水。\Nl used to dive here when l was a boy.
+Dialogue: 0,2:17:52.25,2:17:55.00,Default,,0,0,0,,我有事要跟你谈谈。\Nl have something\Nl want to talk to you about.
+Dialogue: 0,2:17:55.13,2:17:57.21,Default,,0,0,0,,不在这里。\NNot here.
+Dialogue: 0,2:18:20.17,2:18:22.25,Default,,0,0,0,,我们能在这里谈谈吗？\NCan we talk here?
+Dialogue: 0,2:18:42.50,2:18:44.58,Default,,0,0,0,,让我们谈谈我的世界。\NLet's talk about my world.
+Dialogue: 0,2:18:47.17,2:18:49.00,Default,,0,0,0,,我的世界就是你。\NMy world is you.
+Dialogue: 0,2:18:55.00,2:18:57.12,Default,,0,0,0,,我爱你。\Nl love you.
+Dialogue: 0,2:18:59.92,2:19:02.04,Default,,0,0,0,,我想和你住在一起。\Nl wanna live with you.
+Dialogue: 0,2:19:03.50,2:19:05.58,Default,,0,0,0,,我想和你生个孩子。\Nl wanna have a baby with you.
+Dialogue: 0,2:19:07.33,2:19:09.37,Default,,0,0,0,,我想和你住一栋房子。\Nl wanna have a house with you.
+Dialogue: 0,2:19:09.50,2:19:12.67,Default,,0,0,0,,你有车。一只狗和你在一起。\NA car with you. A dog with you.
+Dialogue: 0,2:19:12.79,2:19:14.75,Default,,0,0,0,,你知道的？\NYou know?
+Dialogue: 0,2:19:14.88,2:19:18.13,Default,,0,0,0,,雅克，我想我可能怀孕了！\NJacques, l think l might be pregnant!
+Dialogue: 0,2:19:23.21,2:19:25.25,Default,,0,0,0,,你听见了吗？\NDid you hear me?
+Dialogue: 0,2:20:14.75,2:20:16.83,Default,,0,0,0,,明天将是重要的一天。\NTomorrow is going to be a big day.
+Dialogue: 0,2:21:45.25,2:21:49.50,Default,,0,0,0,,当我分析了约尔最后一次潜水的数据时，它变得很明显。\NWhen l analysed the data from\NMayol's last dive, it became apparent.
+Dialogue: 0,2:21:49.63,2:21:53.42,Default,,0,0,0,,在这些人潜水的深处，这在生理上是不可能的。。。\NAt the depths these men are diving,\Nit is a physiological impossibility...
+Dialogue: 0,2:21:53.54,2:21:57.25,Default,,0,0,0,,它们能保留足够的氧气到达表面。\Nthat they could retain enough oxygen\Nto make it to the surface.
+Dialogue: 0,2:21:57.38,2:22:02.55,Default,,0,0,0,,压力太大，阻止氧气在体内循环。\NThe pressure is so strong, it stops the oxygen\Nfrom circulating through the body.
+Dialogue: 0,2:22:03.21,2:22:05.83,Default,,0,0,0,,试图打破马约尔的记录。。。\NTo attempt to break Mayol's record now...
+Dialogue: 0,2:22:05.96,2:22:08.08,Default,,0,0,0,,就是简单的自杀。\Nis simple suicide.
+Dialogue: 0,2:22:10.38,2:22:12.30,Default,,0,0,0,,你明白吗？\NDo you understand?
+Dialogue: 0,2:22:13.63,2:22:15.71,Default,,0,0,0,,是的，我明白。\NYes, l understand.
+Dialogue: 0,2:22:16.96,2:22:19.08,Default,,0,0,0,,今天只是训练。\NToday is just training.
+Dialogue: 0,2:22:21.29,2:22:24.50,Default,,0,0,0,,-莫里纳里是17次世界冠军。\N-三分钟！\N- Molinari is a 17-time world champion.\N- Three minutes!
+Dialogue: 0,2:22:24.63,2:22:26.71,Default,,0,0,0,,你想告诉他他不会跳水吗？\NDo you want to tell him he can't dive?
+Dialogue: 0,2:22:32.50,2:22:34.46,Default,,0,0,0,,取消比赛。\NCancel the competition.
+Dialogue: 0,2:22:41.75,2:22:43.83,Default,,0,0,0,,两分钟！\NTwo minutes!
+Dialogue: 0,2:22:49.33,2:22:51.25,Default,,0,0,0,,把梅约带进来。\NGet Mayol in here.
+Dialogue: 0,2:22:57.08,2:22:59.16,Default,,0,0,0,,一分钟！\NOne minute!
+Dialogue: 0,2:23:14.58,2:23:17.08,Default,,0,0,0,,他们想取消比赛。\NThey wanna cancel the competition.
+Dialogue: 0,2:23:17.21,2:23:19.29,Default,,0,0,0,,一段时间。\NFor a while.
+Dialogue: 0,2:23:20.46,2:23:22.29,Default,,0,0,0,,为什么？\NWhy?
+Dialogue: 0,2:23:23.63,2:23:25.71,Default,,0,0,0,,他们说这不安全。\Nlt's not safe, they say.
+Dialogue: 0,2:23:30.13,2:23:32.21,Default,,0,0,0,,医生说。。。\NThe doctors say...
+Dialogue: 0,2:23:33.54,2:23:36.08,Default,,0,0,0,,我们不能再深入下去了。\Nwe can't go deeper and survive.
+Dialogue: 0,2:23:38.08,2:23:40.58,Default,,0,0,0,,你这么说是因为你有头衔。\NYou say that because you have the title.
+Dialogue: 0,2:23:42.25,2:23:44.33,Default,,0,0,0,,我绝不会欺骗你。\Nl would never cheat you.
+Dialogue: 0,2:23:47.63,2:23:49.71,Default,,0,0,0,,你真好。\NThat's very nice of you.
+Dialogue: 0,2:23:57.50,2:24:00.46,Default,,0,0,0,,哦，天哪\Nl让你告诉他不要去！\NOh, Jesus!\Nl told you to tell him not to go!
+Dialogue: 0,2:24:00.58,2:24:02.70,Default,,0,0,0,,不是我的错！我告诉他了！\Nlt's not my fault! l told him!
+Dialogue: 0,2:24:07.63,2:24:09.67,Default,,0,0,0,,-不，不，不\N然后他们就死了！\N- No, no, no!\N- And then they die!
+Dialogue: 0,2:24:09.79,2:24:12.96,Default,,0,0,0,,这是我第一次组织比赛！\Nlt's the first time\Nl've organised a competition!
+Dialogue: 0,2:25:25.25,2:25:26.87,Default,,0,0,0,,精彩的！\NWonderful!
+Dialogue: 0,2:25:38.42,2:25:40.04,Default,,0,0,0,,逃掉\NGet away!
+Dialogue: 0,2:25:40.17,2:25:41.88,Default,,0,0,0,,你能走开吗？！\NWill you get away?!
+Dialogue: 0,2:25:42.00,2:25:43.46,Default,,0,0,0,,他妈的！\NGoddamn it!
+Dialogue: 0,2:25:43.58,2:25:45.87,Default,,0,0,0,,逃掉\NGet away!
+Dialogue: 0,2:25:46.00,2:25:49.08,Default,,0,0,0,,-给他点时间！别管他\N出去！\N- Give him some time! Leave him alone!\N- Out!
+Dialogue: 0,2:25:52.00,2:25:53.67,Default,,0,0,0,,走开！\NClear off!
+Dialogue: 0,2:26:12.83,2:26:15.37,Default,,0,0,0,,你是对的。\NYou were right.
+Dialogue: 0,2:26:17.88,2:26:19.55,Default,,0,0,0,,关于什么？\NAbout what?
+Dialogue: 0,2:26:20.96,2:26:23.08,Default,,0,0,0,,下面好多了。\Nlt's much better down there.
+Dialogue: 0,2:26:27.08,2:26:29.12,Default,,0,0,0,,这是个更好的地方。\Nlt's a better place.
+Dialogue: 0,2:26:45.75,2:26:47.87,Default,,0,0,0,,把我推回水中。\NPush me back in the water.
+Dialogue: 0,2:26:49.58,2:26:51.62,Default,,0,0,0,,不，我不能。\NNo, l can't.
+Dialogue: 0,2:26:58.38,2:27:00.67,Default,,0,0,0,,带我回去。\NTake me back down.
+Dialogue: 0,2:27:08.33,2:27:10.20,Default,,0,0,0,,请\NPlease.
+Dialogue: 0,2:28:04.38,2:28:05.71,Default,,0,0,0,,嘿，看！\NHey, look!
+Dialogue: 0,2:28:50.75,2:28:54.33,Default,,0,0,0,,-举起手臂。。。越过顶端…\N-来吧，雅克。\N- Up with the arms... Over the top...\N- Come on, Jacques.
+Dialogue: 0,2:28:57.58,2:28:59.79,Default,,0,0,0,,让我们心跳一下。\NLet's get a heartbeat.
+Dialogue: 0,2:28:59.92,2:29:01.79,Default,,0,0,0,,快，呼吸！\NCome on, breathe!
+Dialogue: 0,2:29:01.92,2:29:04.67,Default,,0,0,0,,快点，雅克。快点，雅克！\NCome on, Jacques. Come on, Jacques!
+Dialogue: 0,2:29:10.29,2:29:12.79,Default,,0,0,0,,回来，雅克！\NCome back, Jacques!
+Dialogue: 0,2:29:36.63,2:29:39.21,Default,,0,0,0,,雅克！跟我们在一起！\NJacques! Stay with us!
+Dialogue: 0,2:30:04.13,2:30:06.21,Default,,0,0,0,,很好。很好。\NGood. Good.
+Dialogue: 0,2:30:06.33,2:30:08.79,Default,,0,0,0,,好孩子。\NGood boy.
+Dialogue: 0,2:30:13.79,2:30:15.87,Default,,0,0,0,,非常好。\NVery good.
+Dialogue: 0,2:30:35.33,2:30:37.41,Default,,0,0,0,,在这里\NHere.
+Dialogue: 0,2:30:41.75,2:30:43.83,Default,,0,0,0,,睡一觉。\NGet some sleep.
+Dialogue: 0,2:31:04.04,2:31:06.12,Default,,0,0,0,,我们稍后再谈。\NWe'll talk later.
+Dialogue: 0,2:31:09.13,2:31:11.17,Default,,0,0,0,,你现在睡觉。\NYou sleep now.
+Dialogue: 0,2:31:22.54,2:31:24.62,Default,,0,0,0,,我爱你。\Nl love you.
+Dialogue: 0,2:31:30.88,2:31:34.67,Default,,0,0,0,,劳伦斯医生…\N这是给你的。\NDoctor Laurence...\NThis just arrived for you.
+Dialogue: 0,2:31:56.75,2:31:58.83,Default,,0,0,0,,我不在船上。\Nl wasn't on the boat.
+Dialogue: 0,2:32:05.08,2:32:07.16,Default,,0,0,0,,20年来唯一一次，\NThe only time in 20 years,
+Dialogue: 0,2:32:09.92,2:32:12.00,Default,,0,0,0,,我不在船上。\Nand l wasn't on the boat.
+Dialogue: 0,2:32:17.42,2:32:22.46,Default,,0,0,0,,我得走了，告诉妈妈。\Nl must go now, tell Mamma.
+Dialogue: 0,2:32:49.13,2:32:52.30,Default,,0,0,0,,我知道现在不是时候，但是。。。\Nl know this isn't a good time for this, but...
+Dialogue: 0,2:32:52.42,2:32:54.92,Default,,0,0,0,,我这里有你的测试结果。\Nl have the results of your test here.
+Dialogue: 0,2:32:55.92,2:32:57.75,Default,,0,0,0,,是的，你怀孕了。\NYes, you're pregnant.
+Dialogue: 0,2:33:08.75,2:33:10.79,Default,,0,0,0,,你高兴吗？\NAre you happy?
+Dialogue: 0,2:33:11.83,2:33:14.12,Default,,0,0,0,,-是的。\N-很好。\N- Yes.\N- Good.
+Dialogue: 0,2:33:14.25,2:33:16.29,Default,,0,0,0,,我很高兴。\Nl'm happy.
+Dialogue: 0,2:33:18.46,2:33:20.50,Default,,0,0,0,,我很害怕，\Nl'm scared,
+Dialogue: 0,2:33:20.63,2:33:22.71,Default,,0,0,0,,但我很高兴。\Nbut l'm happy.
+Dialogue: 0,2:33:24.04,2:33:25.83,Default,,0,0,0,,所以\NSo...
+Dialogue: 0,2:33:25.96,2:33:28.29,Default,,0,0,0,,别再胡闹了。\Nno more ouzo.
+Dialogue: 0,2:33:29.50,2:33:31.62,Default,,0,0,0,,别再抽烟了。\NNo more cigarettes.
+Dialogue: 0,2:33:34.75,2:33:36.79,Default,,0,0,0,,-你保重。\N-谢谢。\N- You take care.\N- Thank you.
+Dialogue: 0,2:37:15.96,2:37:18.33,Default,,0,0,0,,这是怎么一回事？跟我说话！\NWhat is it? Talk to me!
+Dialogue: 0,2:37:23.88,2:37:25.96,Default,,0,0,0,,好啊等一下。\NOK. Wait a minute.
+Dialogue: 0,2:37:26.83,2:37:28.83,Default,,0,0,0,,让我们和劳伦斯谈谈。\NLet's talk to Laurence.
+Dialogue: 0,2:37:28.96,2:37:31.08,Default,,0,0,0,,你在做什么？\NWhat are you doing?
+Dialogue: 0,2:37:31.21,2:37:33.25,Default,,0,0,0,,拜托，拜托别这样。\NPlease, please don't do this.
+Dialogue: 0,2:37:33.38,2:37:35.21,Default,,0,0,0,,听着，别这样！\NLook, don't do this!
+Dialogue: 0,2:37:35.33,2:37:37.45,Default,,0,0,0,,你为什么这么做？\NWhy are you doing this?
+Dialogue: 0,2:37:46.21,2:37:48.29,Default,,0,0,0,,雅克。。。跟我说！\NJacques... Just talk to me!
+Dialogue: 0,2:38:36.54,2:38:38.41,Default,,0,0,0,,我得去看看。\Nl've got to go and see.
+Dialogue: 0,2:38:40.00,2:38:42.08,Default,,0,0,0,,看到什么了？\NSee what?
+Dialogue: 0,2:38:42.54,2:38:44.71,Default,,0,0,0,,没什么可看的，雅克！\NThere's nothing to see, Jacques!
+Dialogue: 0,2:38:44.83,2:38:46.87,Default,,0,0,0,,下面很黑！太冷了！\Nlt's dark down there! lt's cold!
+Dialogue: 0,2:38:47.00,2:38:49.37,Default,,0,0,0,,你会一个人的！\NYou'll be alone!
+Dialogue: 0,2:38:49.50,2:38:53.62,Default,,0,0,0,,我在这里！我是真的！我存在！\NAnd l'm here! l'm real! l exist!
+Dialogue: 0,2:39:28.17,2:39:30.42,Default,,0,0,0,,我怀孕了。\Nl'm pregnant.
+Dialogue: 0,2:39:38.04,2:39:41.08,Default,,0,0,0,,你没听见吗？\NDidn't you hear me?
