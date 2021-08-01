@@ -1,5 +1,6 @@
 import ctypes
 import sys
+import os
 
 STD_INPUT_HANDLE = -10
 STD_OUTPUT_HANDLE = -11
@@ -35,7 +36,15 @@ def print_error(text):
     print(text)
     reset_color()
 
-def print_sky_blue(text:str):
+
+def print_sky_blue(text: str):
     set_cmd_text_color(FOREGROUND_SKYBLUE)
     print(text)
     reset_color()
+
+
+def is_path_valid(path: str) -> bool:
+    """
+    检查路径是否合法
+    """
+    return path != "" and os.path.exists(path)

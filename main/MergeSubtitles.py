@@ -3,6 +3,7 @@
 # 合并字幕
 import re
 import os
+import Utils
 
 
 class MergeSubtitles:
@@ -22,7 +23,6 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text"
         self.__file_type = "srt"
         prename = "./../src/MergeSubtitles/dist"
         self.__dist_file = prename if dist_file is None else dist_file
-        self.__time_line = []
         self.__init()
 
     class TextList:
@@ -111,9 +111,17 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text"
 
     def __read(self, file: str) -> str:
         text = ""
-        f = open(file, encoding="utf-8")
-        text = f.read()
-        f.close()
+        try:
+            f = open(file, encoding="utf-8")
+            text = f.read()
+        except Exception as e:
+            f.close()
+            try:
+                f = open(file, encoding="gbk")
+                text = f.read()
+            except Exception as e:
+                f.close()
+                raise e
         return text
 
     def merge(self):
@@ -143,17 +151,13 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text"
         dist_file.close()
 
 
-# ch_file = open("./../src/MergeSubtitles/ch.ass", encoding="utf-8")
-# en_file = open("./../src/MergeSubtitles/en.ass", encoding="utf-8")
-# dist_file = open("./../src/MergeSubtitles/dist.ass", mode="wt", encoding="utf-8")
-# time_list = []
-# ch_list = get_subtitles(ch_file.read(), time_list)
-# en_list = get_subtitles(en_file.read())
-# dist_file.write(merge(ch_list, en_list, time_list))
-# dist_file.close()
-# en_file.close()
-# ch_file.close()
-
-MergeSubtitles(
-    "./../src/MergeSubtitles/en.ass", "./../src/MergeSubtitles/ch.ass"
-).merge()
+if __name__ == "__main__":
+    en_path = input("输入英文字幕路径：").strip()
+    while not Utils.is_path_valid(en_path):
+        print("路径无效！")
+        en_path = input("输入英文字幕路径：").strip()
+    ch_path = input("输入中文字幕路径：").strip()
+    while not Utils.is_path_valid(ch_path):
+        print("路径无效！")
+        ch_path = input("输入中文字幕路径：").strip()
+    MergeSubtitles(en_path, ch_path).merge()

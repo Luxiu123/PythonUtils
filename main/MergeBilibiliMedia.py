@@ -5,12 +5,8 @@
 import os
 import json
 import time
+import Utils
 
-# from ffmpy import FFmepg
-
-
-root_dir = r"C:\Users\luxiu\Downloads\逍遥安卓下载\804122638"
-out_dir = r"E:\Video\vue"
 # 文件名特殊字符
 SPECIAL_CHARACTER = ("?", "*", ":", '"', "<", ">", "\\", "/", "|")
 
@@ -35,7 +31,7 @@ def get_filename(filepath: str) -> str:
     return validate_filename(obj["page_data"]["download_subtitle"].split("丨")[1])
 
 
-def main():
+def main(out_dir, root_dir):
     dir_items = os.listdir(root_dir)
     for index, item in enumerate(dir_items):
         entry_path = os.path.join(root_dir, item, "entry.json")
@@ -51,7 +47,15 @@ def main():
         os.popen(command)
         time.sleep(0.5)
         # os.system(command)
-    
+
 
 if __name__ == "__main__":
-    main()
+    root_dir = input("输入视频根目录路径：").strip()
+    while not Utils.is_path_valid(root_dir):
+        print("路径无效！")
+        root_dir = input("输入视频根路径：").strip()
+    out_dir = input("输入保存目录路径：").strip()
+    while not Utils.is_path_valid(out_dir):
+        print("路径无效！")
+        out_dir = input("输入保存目录路径：").strip()
+    main(out_dir, root_dir)
