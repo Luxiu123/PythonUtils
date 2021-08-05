@@ -28,7 +28,7 @@ def get_filename(filepath: str) -> str:
     with open(filepath, mode="rt", encoding="utf-8") as f:
         text = f.read()
     obj = json.loads(text)
-    return validate_filename(obj["page_data"]["download_subtitle"].split("丨")[1])
+    return validate_filename(obj["page_data"]["download_subtitle"].replace(obj['title'], ''))
 
 
 def main(out_dir, root_dir):
@@ -37,7 +37,7 @@ def main(out_dir, root_dir):
         entry_path = os.path.join(root_dir, item, "entry.json")
         video_path = os.path.join(root_dir, item, "80", "video.m4s")
         audio_path = os.path.join(root_dir, item, "80", "audio.m4s")
-        dist_path = os.path.join(out_dir, f"{item}-{get_filename(entry_path)}.mp4")
+        dist_path = os.path.join(out_dir, f"{get_filename(entry_path)}.mp4")
         if os.path.exists(dist_path):
             os.remove(dist_path)
         command = (
