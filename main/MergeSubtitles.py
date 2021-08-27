@@ -4,6 +4,8 @@
 import re
 import os
 import Utils
+import csv
+from openpyxl import Workbook, load_workbook
 
 
 class MergeSubtitles:
@@ -20,7 +22,7 @@ Style: Default,微软雅黑,22,&Hffffff,&Hffffff,&H0,&H0,0,0,0,0,100,100,0,0,1,0
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text"""
         self.__en_file = en_file
         self.__ch_file = ch_file
-        self.__file_type = "srt"
+        self.__file_type = ".srt"
         prename = "./../src/MergeSubtitles/dist"
         self.__dist_file = prename if dist_file is None else dist_file
         self.__init()
@@ -124,10 +126,31 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text"
                 raise e
         return text
 
+    def __write_excel(self, ch_list: list, en_list: list, time_line: list):
+        wb = Workbook()
+        sheet = wb.create_sheet()
+        # f = open(self.__dist_file + ".csv", mode="wt", encoding="utf-8")
+        ch_len = len(ch_list)
+        en_len = len(en_list)
+        # writer = csv.writer(f)
+        length = min(en_len, ch_len)
+        # data_list = []
+        for i in range(length):
+            sheet.append([time_line[i], ch_list[i], en_list[i].strip()])
+        if en_len != ch_len:
+            if en_len > ch_len:
+                for i in range(ch_len, en_len):
+                    sheet.append([time_line[i], "", en_list[i].strip()])
+            else:
+                for i in range(en_len, ch_len):
+                    sheet.append(["", ch_list[i], ""])
+        # writer.writerows(data_list)
+        # f.close()
+        wb.save(self.__dist_file + ".xlsx")
+
     def merge(self):
-        dist_file = open(
-            self.__dist_file + self.__file_type, mode="wt", encoding="utf-8"
-        )
+        dist_file_path = self.__dist_file + self.__file_type
+        dist_file = open(dist_file_path, mode="wt", encoding="utf-8")
         en_text = self.__read(self.__en_file)
         ch_text = self.__read(self.__ch_file)
         if self.__file_type == ".ass":
@@ -135,6 +158,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text"
             ch_list = self.__get_ass_subtitles(ch_text)
             print(len(en_list.text_list), len(en_list.time_line))
             print(len(ch_list.text_list), len(ch_list.time_line))
+            self.__write_excel(ch_list.text_list, en_list.text_list, en_list.time_line)
             dist_file.write(
                 self.__merge_ass(
                     ch_list.text_list, en_list.text_list, en_list.time_line
@@ -143,12 +167,14 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text"
         elif self.__file_type == ".srt":
             en_list = self.__get_srt_subtitles(en_text)
             ch_list = self.__get_srt_subtitles(ch_text)
+            self.__write_excel(ch_list.text_list, en_list.text_list, en_list.time_line)
             dist_file.write(
                 self.__merge_srt(
                     ch_list.text_list, en_list.text_list, en_list.time_line
                 )
             )
         dist_file.close()
+        print("dist file: ", os.path.abspath(dist_file_path))
 
 
 if __name__ == "__main__":

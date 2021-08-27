@@ -1,6 +1,5 @@
 import re
 import time
-import numpy
 import csv
 import requests
 import threading
