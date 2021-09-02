@@ -22,7 +22,7 @@ class SubtitleAdjust:
         t = time.strftime("%H:%M:%S", t)
         return t
 
-    def __read(self):
+    def __read_lines(self):
         lines = []
         with open(self.source, encoding="utf-8") as f:
             lines = f.readlines()
@@ -30,7 +30,7 @@ class SubtitleAdjust:
 
     def replace(self):
         repl_list = []
-        for line in self.__read():
+        for line in self.__read_lines():
             repl_list.append(re.sub(comp, self.__adjust, line[:40]) + line[40:])
         self.__write("".join(repl_list))
 
