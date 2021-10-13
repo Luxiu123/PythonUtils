@@ -8,7 +8,7 @@ import os
 import sys
 import logging
 
-logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(level=logging.DEBUG, format="%(message)s")
 
 
 class FileSplit:
