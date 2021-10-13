@@ -7,6 +7,7 @@
 import os
 import sys
 import logging
+import time
 
 logging.basicConfig(level=logging.DEBUG, format="%(message)s")
 
@@ -40,13 +41,10 @@ class FileSplit:
         """
         file_index = 1  # 文件索引
         size_count = 0  # 文件大小计数
-        buffer_size = 1024  # 缓冲区大小
+        buffer_size = 65536  # 缓冲区大小
         # file_num = int(os.path.getsize() / (per_size * 1024 * 1024))  # 分割文件总数
-        splitext = os.path.splitext(os.path.split(file)[1])
-        # filename = splitext[0]  # 文件名
-        extension = splitext[1]  # 扩展名
-        # if extension != "":
-        #     extension = "." + extension
+        extension = os.path.splitext(os.path.split(file)[1])[1]  # 扩展名
+        start_time = int(time.time() * 1000)  # 起始时间
 
         with open(file, mode="rb") as f:
             buffer = f.read(buffer_size)
@@ -66,7 +64,26 @@ class FileSplit:
                     )
             f2.close()
             logging.info(f"writing {f2.name} successfully")
+            end_time = int(time.time() * 1000)  # 起始时间
+            print(f"总耗时 {end_time-start_time} ms")
 
 
 if __name__ == "__main__":
-    FileSplit().start(r"E:\Temp\a.rar")
+    path = input("输入要分割的文件路径：")
+    while not os.path.exists(path):
+        path = input("输入要分割的文件路径：")
+    size = input("输入分割大小(MB) (默认为源文件大小 10%)：")
+    if size.strip() == "":
+        FileSplit().start(path)
+        sys.exit()
+
+    while True:
+        try:
+            size = int(size)
+            if size <= 0:
+                raise ValueError()
+            FileSplit().start(path, per_size=size)
+            break
+        except Exception as e:
+            logging.error("非法数字！")
+        size = input("输入分割大小(MB) (默认为源文件大小 10%)：")

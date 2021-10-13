@@ -7,6 +7,7 @@
 import os
 import sys
 import logging
+import time
 
 logging.basicConfig(level=logging.DEBUG, format="%(message)s")
 
@@ -32,7 +33,8 @@ class FileMerge:
             key=lambda a: os.path.getctime(os.path.join(source_dir, a))
         )  # 根据文件创建时间排序
 
-        buffer_size = 1024
+        start_time = int(time.time() * 1000)  # 起始时间
+        buffer_size = 65536  # 缓冲区大小
         out = open(out_file, mode="wb")
         logging.info(f"merging {source_dir}")
         for file in file_list:
@@ -44,7 +46,22 @@ class FileMerge:
             logging.info(f"merging {file} successfully")
         out.close()
         logging.info(f"merging {source_dir} successfully")
+        end_time = int(time.time() * 1000)  # 起始时间
+        print(f"总耗时 {end_time-start_time} ms")
 
 
 if __name__ == "__main__":
-    FileMerge().start(r"E:\Temp\a")
+    prompt = "输入要合并的文件夹目录："
+    path = input(prompt)
+    while True:
+        if not os.path.exists(path):
+            logging.error("文件夹不存在！")
+            path = input(prompt)
+            continue
+        if not os.path.isdir(path):
+            logging.error("路径不为文件夹！")
+            path = input(prompt)
+            continue
+        break
+
+    FileMerge().start(path)
