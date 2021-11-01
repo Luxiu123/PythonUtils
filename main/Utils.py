@@ -1,6 +1,10 @@
 import ctypes
 import sys
 import os
+import re
+
+
+FILE_REGEXP = r"^(?P<path>.*[/\\])(?P<name>.*)(?P<ets>\..+)$"
 
 STD_INPUT_HANDLE = -10
 STD_OUTPUT_HANDLE = -11
@@ -48,3 +52,5 @@ def is_path_valid(path: str) -> bool:
     检查路径是否合法
     """
     return path != "" and os.path.exists(path)
+
+
