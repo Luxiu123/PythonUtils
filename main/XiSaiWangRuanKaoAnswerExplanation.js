@@ -1,5 +1,8 @@
-/*希赛网软考，题目+答案解析，用于笔记*/
-
+/*
+ * @Author: Luxiu123 klt5466@163.com
+ * @Date: 2022-05-15 20:08:25
+ * @Description: 希赛网软考，题目+答案解析，用于笔记
+ */
 let space = String.fromCharCode(0xa0);
 let source =
   document.querySelector("#paperWrap").innerText +
