@@ -1,0 +1,16 @@
+{
+  "name": "Utils",
+  "version": "1.0.0",
+  "description": "常用工具类",
+  "main": "index.js",
+  "repository": "https://github.com/Luxiu123/ScriptUtils",
+  "author": "Luxiu123 <klt5466@163.com>",
+  "license": "MIT",
+  "private": false,
+  "nodeVersion": "v16.15.0",
+  "dependencies": {
+    "archiver": "^5.3.1",
+    "loglevel": "^1.8.0",
+    "moment": "^2.29.3"
+  }
+}
