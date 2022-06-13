@@ -45,6 +45,8 @@ const archive = archiver("zip", {
 let finished = false;
 output.on("close", function () {
   console.log("finished");
+  // 删除目的目录
+  fs.rmSync(DestDir, { recursive: true });
   finished = true;
 });
 archive.pipe(output);
