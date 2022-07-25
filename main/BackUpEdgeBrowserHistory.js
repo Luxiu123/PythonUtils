@@ -47,9 +47,11 @@ output.on("close", function () {
   console.log("finished");
   // 删除目的目录
   fs.rmSync(DestDir, { recursive: true });
+  log.debug(`压缩文件成功`);
   finished = true;
 });
 archive.pipe(output);
+log.debug(`压缩文件中...`);
 // 添加文件到压缩包
 fs.readdirSync(DestDir).map((v) => {
   archive.append(fs.createReadStream(path.join(DestDir, v)), { name: v });
